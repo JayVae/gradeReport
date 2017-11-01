@@ -1,0 +1,838 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<!-- NewPage -->
+<html lang="en">
+<head>
+<title>XSLFGroupShape (POI API Documentation)</title>
+<link rel="stylesheet" type="text/css" href="../../../../../stylesheet.css" title="Style">
+</head>
+<body>
+<script type="text/javascript"><!--
+    if (location.href.indexOf('is-external=true') == -1) {
+        parent.document.title="XSLFGroupShape (POI API Documentation)";
+    }
+//-->
+</script>
+<noscript>
+<div>JavaScript is disabled on your browser.</div>
+</noscript>
+<!-- ========= START OF TOP NAVBAR ======= -->
+<div class="topNav"><a name="navbar_top">
+<!--   -->
+</a><a href="#skip-navbar_top" title="Skip navigation links"></a><a name="navbar_top_firstrow">
+<!--   -->
+</a>
+<ul class="navList" title="Navigation">
+<li><a href="../../../../../overview-summary.html">Overview</a></li>
+<li><a href="package-summary.html">Package</a></li>
+<li class="navBarCell1Rev">Class</li>
+<li><a href="class-use/XSLFGroupShape.html">Use</a></li>
+<li><a href="package-tree.html">Tree</a></li>
+<li><a href="../../../../../deprecated-list.html">Deprecated</a></li>
+<li><a href="../../../../../index-all.html">Index</a></li>
+<li><a href="../../../../../help-doc.html">Help</a></li>
+</ul>
+</div>
+<div class="subNav">
+<ul class="navList">
+<li><a href="../../../../../org/apache/poi/xslf/usermodel/XSLFGraphicFrame.html" title="class in org.apache.poi.xslf.usermodel"><span class="strong">PREV CLASS</span></a></li>
+<li><a href="../../../../../org/apache/poi/xslf/usermodel/XSLFHyperlink.html" title="class in org.apache.poi.xslf.usermodel"><span class="strong">NEXT CLASS</span></a></li>
+</ul>
+<ul class="navList">
+<li><a href="../../../../../index.html?org/apache/poi/xslf/usermodel/XSLFGroupShape.html" target="_top">FRAMES</a></li>
+<li><a href="XSLFGroupShape.html" target="_top">NO FRAMES</a></li>
+</ul>
+<ul class="navList" id="allclasses_navbar_top">
+<li><a href="../../../../../allclasses-noframe.html">All Classes</a></li>
+</ul>
+<div>
+<script type="text/javascript"><!--
+  allClassesLink = document.getElementById("allclasses_navbar_top");
+  if(window==top) {
+    allClassesLink.style.display = "block";
+  }
+  else {
+    allClassesLink.style.display = "none";
+  }
+  //-->
+</script>
+</div>
+<div>
+<ul class="subNavList">
+<li>SUMMARY:&nbsp;</li>
+<li>NESTED&nbsp;|&nbsp;</li>
+<li><a href="#fields_inherited_from_class_org.apache.poi.xslf.usermodel.XSLFShape">FIELD</a>&nbsp;|&nbsp;</li>
+<li><a href="#constructor_summary">CONSTR</a>&nbsp;|&nbsp;</li>
+<li><a href="#method_summary">METHOD</a></li>
+</ul>
+<ul class="subNavList">
+<li>DETAIL:&nbsp;</li>
+<li>FIELD&nbsp;|&nbsp;</li>
+<li><a href="#constructor_detail">CONSTR</a>&nbsp;|&nbsp;</li>
+<li><a href="#method_detail">METHOD</a></li>
+</ul>
+</div>
+<a name="skip-navbar_top">
+<!--   -->
+</a></div>
+<!-- ========= END OF TOP NAVBAR ========= -->
+<!-- ======== START OF CLASS DATA ======== -->
+<div class="header">
+<p class="subTitle">org.apache.poi.xslf.usermodel</p>
+<h2 title="Class XSLFGroupShape" class="title">Class XSLFGroupShape</h2>
+</div>
+<div class="contentContainer">
+<ul class="inheritance">
+<li>java.lang.Object</li>
+<li>
+<ul class="inheritance">
+<li><a href="../../../../../org/apache/poi/xslf/usermodel/XSLFShape.html" title="class in org.apache.poi.xslf.usermodel">org.apache.poi.xslf.usermodel.XSLFShape</a></li>
+<li>
+<ul class="inheritance">
+<li>org.apache.poi.xslf.usermodel.XSLFGroupShape</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<div class="description">
+<ul class="blockList">
+<li class="blockList">
+<dl>
+<dt>All Implemented Interfaces:</dt>
+<dd>java.lang.Iterable&lt;<a href="../../../../../org/apache/poi/xslf/usermodel/XSLFShape.html" title="class in org.apache.poi.xslf.usermodel">XSLFShape</a>&gt;, <a href="../../../../../org/apache/poi/sl/usermodel/GroupShape.html" title="interface in org.apache.poi.sl.usermodel">GroupShape</a>&lt;<a href="../../../../../org/apache/poi/xslf/usermodel/XSLFShape.html" title="class in org.apache.poi.xslf.usermodel">XSLFShape</a>,<a href="../../../../../org/apache/poi/xslf/usermodel/XSLFTextParagraph.html" title="class in org.apache.poi.xslf.usermodel">XSLFTextParagraph</a>&gt;, <a href="../../../../../org/apache/poi/sl/usermodel/PlaceableShape.html" title="interface in org.apache.poi.sl.usermodel">PlaceableShape</a>&lt;<a href="../../../../../org/apache/poi/xslf/usermodel/XSLFShape.html" title="class in org.apache.poi.xslf.usermodel">XSLFShape</a>,<a href="../../../../../org/apache/poi/xslf/usermodel/XSLFTextParagraph.html" title="class in org.apache.poi.xslf.usermodel">XSLFTextParagraph</a>&gt;, <a href="../../../../../org/apache/poi/sl/usermodel/Shape.html" title="interface in org.apache.poi.sl.usermodel">Shape</a>&lt;<a href="../../../../../org/apache/poi/xslf/usermodel/XSLFShape.html" title="class in org.apache.poi.xslf.usermodel">XSLFShape</a>,<a href="../../../../../org/apache/poi/xslf/usermodel/XSLFTextParagraph.html" title="class in org.apache.poi.xslf.usermodel">XSLFTextParagraph</a>&gt;, <a href="../../../../../org/apache/poi/sl/usermodel/ShapeContainer.html" title="interface in org.apache.poi.sl.usermodel">ShapeContainer</a>&lt;<a href="../../../../../org/apache/poi/xslf/usermodel/XSLFShape.html" title="class in org.apache.poi.xslf.usermodel">XSLFShape</a>,<a href="../../../../../org/apache/poi/xslf/usermodel/XSLFTextParagraph.html" title="class in org.apache.poi.xslf.usermodel">XSLFTextParagraph</a>&gt;, <a href="../../../../../org/apache/poi/xslf/usermodel/XSLFShapeContainer.html" title="interface in org.apache.poi.xslf.usermodel">XSLFShapeContainer</a></dd>
+</dl>
+<hr>
+<br>
+<pre><a href="../../../../../org/apache/poi/util/Beta.html" title="annotation in org.apache.poi.util">@Beta</a>
+public class <strong>XSLFGroupShape</strong>
+extends <a href="../../../../../org/apache/poi/xslf/usermodel/XSLFShape.html" title="class in org.apache.poi.xslf.usermodel">XSLFShape</a>
+implements <a href="../../../../../org/apache/poi/xslf/usermodel/XSLFShapeContainer.html" title="interface in org.apache.poi.xslf.usermodel">XSLFShapeContainer</a>, <a href="../../../../../org/apache/poi/sl/usermodel/GroupShape.html" title="interface in org.apache.poi.sl.usermodel">GroupShape</a>&lt;<a href="../../../../../org/apache/poi/xslf/usermodel/XSLFShape.html" title="class in org.apache.poi.xslf.usermodel">XSLFShape</a>,<a href="../../../../../org/apache/poi/xslf/usermodel/XSLFTextParagraph.html" title="class in org.apache.poi.xslf.usermodel">XSLFTextParagraph</a>&gt;</pre>
+<div class="block">Represents a group shape that consists of many shapes grouped together.</div>
+<dl><dt><span class="strong">Author:</span></dt>
+  <dd>Yegor Kozlov</dd></dl>
+</li>
+</ul>
+</div>
+<div class="summary">
+<ul class="blockList">
+<li class="blockList">
+<!-- =========== FIELD SUMMARY =========== -->
+<ul class="blockList">
+<li class="blockList"><a name="field_summary">
+<!--   -->
+</a>
+<h3>Field Summary</h3>
+<ul class="blockList">
+<li class="blockList"><a name="fields_inherited_from_class_org.apache.poi.xslf.usermodel.XSLFShape">
+<!--   -->
+</a>
+<h3>Fields inherited from class&nbsp;org.apache.poi.xslf.usermodel.<a href="../../../../../org/apache/poi/xslf/usermodel/XSLFShape.html" title="class in org.apache.poi.xslf.usermodel">XSLFShape</a></h3>
+<code><a href="../../../../../org/apache/poi/xslf/usermodel/XSLFShape.html#PML_NS">PML_NS</a></code></li>
+</ul>
+</li>
+</ul>
+<!-- ======== CONSTRUCTOR SUMMARY ======== -->
+<ul class="blockList">
+<li class="blockList"><a name="constructor_summary">
+<!--   -->
+</a>
+<h3>Constructor Summary</h3>
+<table class="overviewSummary" border="0" cellpadding="3" cellspacing="0" summary="Constructor Summary table, listing constructors, and an explanation">
+<caption><span>Constructors</span><span class="tabEnd">&nbsp;</span></caption>
+<tr>
+<th class="colFirst" scope="col">Modifier</th>
+<th class="colLast" scope="col">Constructor and Description</th>
+</tr>
+<tr class="altColor">
+<td class="colFirst"><code>protected </code></td>
+<td class="colLast"><code><strong><a href="../../../../../org/apache/poi/xslf/usermodel/XSLFGroupShape.html#XSLFGroupShape(org.openxmlformats.schemas.presentationml.x2006.main.CTGroupShape, org.apache.poi.xslf.usermodel.XSLFSheet)">XSLFGroupShape</a></strong>(org.openxmlformats.schemas.presentationml.x2006.main.CTGroupShape&nbsp;shape,
+              <a href="../../../../../org/apache/poi/xslf/usermodel/XSLFSheet.html" title="class in org.apache.poi.xslf.usermodel">XSLFSheet</a>&nbsp;sheet)</code>&nbsp;</td>
+</tr>
+</table>
+</li>
+</ul>
+<!-- ========== METHOD SUMMARY =========== -->
+<ul class="blockList">
+<li class="blockList"><a name="method_summary">
+<!--   -->
+</a>
+<h3>Method Summary</h3>
+<table class="overviewSummary" border="0" cellpadding="3" cellspacing="0" summary="Method Summary table, listing methods, and an explanation">
+<caption><span>Methods</span><span class="tabEnd">&nbsp;</span></caption>
+<tr>
+<th class="colFirst" scope="col">Modifier and Type</th>
+<th class="colLast" scope="col">Method and Description</th>
+</tr>
+<tr class="altColor">
+<td class="colFirst"><code>void</code></td>
+<td class="colLast"><code><strong><a href="../../../../../org/apache/poi/xslf/usermodel/XSLFGroupShape.html#addShape(org.apache.poi.xslf.usermodel.XSLFShape)">addShape</a></strong>(<a href="../../../../../org/apache/poi/xslf/usermodel/XSLFShape.html" title="class in org.apache.poi.xslf.usermodel">XSLFShape</a>&nbsp;shape)</code>&nbsp;</td>
+</tr>
+<tr class="rowColor">
+<td class="colFirst"><code>void</code></td>
+<td class="colLast"><code><strong><a href="../../../../../org/apache/poi/xslf/usermodel/XSLFGroupShape.html#clear()">clear</a></strong>()</code>
+<div class="block">Removes all of the elements from this container (optional operation).</div>
+</td>
+</tr>
+<tr class="altColor">
+<td class="colFirst"><code><a href="../../../../../org/apache/poi/xslf/usermodel/XSLFAutoShape.html" title="class in org.apache.poi.xslf.usermodel">XSLFAutoShape</a></code></td>
+<td class="colLast"><code><strong><a href="../../../../../org/apache/poi/xslf/usermodel/XSLFGroupShape.html#createAutoShape()">createAutoShape</a></strong>()</code>
+<div class="block">create a new shape with a predefined geometry and add it to this shape container</div>
+</td>
+</tr>
+<tr class="rowColor">
+<td class="colFirst"><code><a href="../../../../../org/apache/poi/xslf/usermodel/XSLFConnectorShape.html" title="class in org.apache.poi.xslf.usermodel">XSLFConnectorShape</a></code></td>
+<td class="colLast"><code><strong><a href="../../../../../org/apache/poi/xslf/usermodel/XSLFGroupShape.html#createConnector()">createConnector</a></strong>()</code>
+<div class="block">create a connector</div>
+</td>
+</tr>
+<tr class="altColor">
+<td class="colFirst"><code><a href="../../../../../org/apache/poi/xslf/usermodel/XSLFFreeformShape.html" title="class in org.apache.poi.xslf.usermodel">XSLFFreeformShape</a></code></td>
+<td class="colLast"><code><strong><a href="../../../../../org/apache/poi/xslf/usermodel/XSLFGroupShape.html#createFreeform()">createFreeform</a></strong>()</code>
+<div class="block">create a new shape with a custom geometry</div>
+</td>
+</tr>
+<tr class="rowColor">
+<td class="colFirst"><code><a href="../../../../../org/apache/poi/xslf/usermodel/XSLFGroupShape.html" title="class in org.apache.poi.xslf.usermodel">XSLFGroupShape</a></code></td>
+<td class="colLast"><code><strong><a href="../../../../../org/apache/poi/xslf/usermodel/XSLFGroupShape.html#createGroup()">createGroup</a></strong>()</code>
+<div class="block">create a group of shapes belonging to this container</div>
+</td>
+</tr>
+<tr class="altColor">
+<td class="colFirst"><code><a href="../../../../../org/apache/poi/xslf/usermodel/XSLFPictureShape.html" title="class in org.apache.poi.xslf.usermodel">XSLFPictureShape</a></code></td>
+<td class="colLast"><code><strong><a href="../../../../../org/apache/poi/xslf/usermodel/XSLFGroupShape.html#createPicture(org.apache.poi.sl.usermodel.PictureData)">createPicture</a></strong>(<a href="../../../../../org/apache/poi/sl/usermodel/PictureData.html" title="interface in org.apache.poi.sl.usermodel">PictureData</a>&nbsp;pictureData)</code>
+<div class="block">create a picture belonging to this container</div>
+</td>
+</tr>
+<tr class="rowColor">
+<td class="colFirst"><code><a href="../../../../../org/apache/poi/xslf/usermodel/XSLFTable.html" title="class in org.apache.poi.xslf.usermodel">XSLFTable</a></code></td>
+<td class="colLast"><code><strong><a href="../../../../../org/apache/poi/xslf/usermodel/XSLFGroupShape.html#createTable()">createTable</a></strong>()</code>&nbsp;</td>
+</tr>
+<tr class="altColor">
+<td class="colFirst"><code><a href="../../../../../org/apache/poi/xslf/usermodel/XSLFTable.html" title="class in org.apache.poi.xslf.usermodel">XSLFTable</a></code></td>
+<td class="colLast"><code><strong><a href="../../../../../org/apache/poi/xslf/usermodel/XSLFGroupShape.html#createTable(int, int)">createTable</a></strong>(int&nbsp;numRows,
+           int&nbsp;numCols)</code>
+<div class="block">Create a new Table of the given number of rows and columns</div>
+</td>
+</tr>
+<tr class="rowColor">
+<td class="colFirst"><code><a href="../../../../../org/apache/poi/xslf/usermodel/XSLFTextBox.html" title="class in org.apache.poi.xslf.usermodel">XSLFTextBox</a></code></td>
+<td class="colLast"><code><strong><a href="../../../../../org/apache/poi/xslf/usermodel/XSLFGroupShape.html#createTextBox()">createTextBox</a></strong>()</code>
+<div class="block">create a text box</div>
+</td>
+</tr>
+<tr class="altColor">
+<td class="colFirst"><code>java.awt.geom.Rectangle2D</code></td>
+<td class="colLast"><code><strong><a href="../../../../../org/apache/poi/xslf/usermodel/XSLFGroupShape.html#getAnchor()">getAnchor</a></strong>()</code>
+<div class="block">Returns the anchor (the bounding box rectangle) of this shape.</div>
+</td>
+</tr>
+<tr class="rowColor">
+<td class="colFirst"><code>boolean</code></td>
+<td class="colLast"><code><strong><a href="../../../../../org/apache/poi/xslf/usermodel/XSLFGroupShape.html#getFlipHorizontal()">getFlipHorizontal</a></strong>()</code>
+<div class="block">Whether the shape is horizontally flipped</div>
+</td>
+</tr>
+<tr class="altColor">
+<td class="colFirst"><code>boolean</code></td>
+<td class="colLast"><code><strong><a href="../../../../../org/apache/poi/xslf/usermodel/XSLFGroupShape.html#getFlipVertical()">getFlipVertical</a></strong>()</code>
+<div class="block">Whether the shape is vertically flipped</div>
+</td>
+</tr>
+<tr class="rowColor">
+<td class="colFirst"><code>protected org.openxmlformats.schemas.drawingml.x2006.main.CTGroupShapeProperties</code></td>
+<td class="colLast"><code><strong><a href="../../../../../org/apache/poi/xslf/usermodel/XSLFGroupShape.html#getGrpSpPr()">getGrpSpPr</a></strong>()</code>&nbsp;</td>
+</tr>
+<tr class="altColor">
+<td class="colFirst"><code>java.awt.geom.Rectangle2D</code></td>
+<td class="colLast"><code><strong><a href="../../../../../org/apache/poi/xslf/usermodel/XSLFGroupShape.html#getInteriorAnchor()">getInteriorAnchor</a></strong>()</code>
+<div class="block">Gets the coordinate space of this group.</div>
+</td>
+</tr>
+<tr class="rowColor">
+<td class="colFirst"><code>double</code></td>
+<td class="colLast"><code><strong><a href="../../../../../org/apache/poi/xslf/usermodel/XSLFGroupShape.html#getRotation()">getRotation</a></strong>()</code>
+<div class="block">Rotation angle in degrees</div>
+</td>
+</tr>
+<tr class="altColor">
+<td class="colFirst"><code>protected org.openxmlformats.schemas.drawingml.x2006.main.CTGroupTransform2D</code></td>
+<td class="colLast"><code><strong><a href="../../../../../org/apache/poi/xslf/usermodel/XSLFGroupShape.html#getSafeXfrm()">getSafeXfrm</a></strong>()</code>&nbsp;</td>
+</tr>
+<tr class="rowColor">
+<td class="colFirst"><code>java.util.List&lt;<a href="../../../../../org/apache/poi/xslf/usermodel/XSLFShape.html" title="class in org.apache.poi.xslf.usermodel">XSLFShape</a>&gt;</code></td>
+<td class="colLast"><code><strong><a href="../../../../../org/apache/poi/xslf/usermodel/XSLFGroupShape.html#getShapes()">getShapes</a></strong>()</code>
+<div class="block">Returns an list containing all of the elements in this container in proper
+ sequence (from first to last element).</div>
+</td>
+</tr>
+<tr class="altColor">
+<td class="colFirst"><code>protected org.openxmlformats.schemas.drawingml.x2006.main.CTGroupTransform2D</code></td>
+<td class="colLast"><code><strong><a href="../../../../../org/apache/poi/xslf/usermodel/XSLFGroupShape.html#getXfrm()">getXfrm</a></strong>()</code>&nbsp;</td>
+</tr>
+<tr class="rowColor">
+<td class="colFirst"><code>java.util.Iterator&lt;<a href="../../../../../org/apache/poi/xslf/usermodel/XSLFShape.html" title="class in org.apache.poi.xslf.usermodel">XSLFShape</a>&gt;</code></td>
+<td class="colLast"><code><strong><a href="../../../../../org/apache/poi/xslf/usermodel/XSLFGroupShape.html#iterator()">iterator</a></strong>()</code>
+<div class="block">Returns an iterator over the shapes in this sheet</div>
+</td>
+</tr>
+<tr class="altColor">
+<td class="colFirst"><code>boolean</code></td>
+<td class="colLast"><code><strong><a href="../../../../../org/apache/poi/xslf/usermodel/XSLFGroupShape.html#removeShape(org.apache.poi.xslf.usermodel.XSLFShape)">removeShape</a></strong>(<a href="../../../../../org/apache/poi/xslf/usermodel/XSLFShape.html" title="class in org.apache.poi.xslf.usermodel">XSLFShape</a>&nbsp;xShape)</code>
+<div class="block">Remove the specified shape from this group</div>
+</td>
+</tr>
+<tr class="rowColor">
+<td class="colFirst"><code>void</code></td>
+<td class="colLast"><code><strong><a href="../../../../../org/apache/poi/xslf/usermodel/XSLFGroupShape.html#setAnchor(java.awt.geom.Rectangle2D)">setAnchor</a></strong>(java.awt.geom.Rectangle2D&nbsp;anchor)</code>&nbsp;</td>
+</tr>
+<tr class="altColor">
+<td class="colFirst"><code>void</code></td>
+<td class="colLast"><code><strong><a href="../../../../../org/apache/poi/xslf/usermodel/XSLFGroupShape.html#setFlipHorizontal(boolean)">setFlipHorizontal</a></strong>(boolean&nbsp;flip)</code>&nbsp;</td>
+</tr>
+<tr class="rowColor">
+<td class="colFirst"><code>void</code></td>
+<td class="colLast"><code><strong><a href="../../../../../org/apache/poi/xslf/usermodel/XSLFGroupShape.html#setFlipVertical(boolean)">setFlipVertical</a></strong>(boolean&nbsp;flip)</code>
+<div class="block">Whether the shape is vertically flipped</div>
+</td>
+</tr>
+<tr class="altColor">
+<td class="colFirst"><code>void</code></td>
+<td class="colLast"><code><strong><a href="../../../../../org/apache/poi/xslf/usermodel/XSLFGroupShape.html#setInteriorAnchor(java.awt.geom.Rectangle2D)">setInteriorAnchor</a></strong>(java.awt.geom.Rectangle2D&nbsp;anchor)</code>
+<div class="block">Sets the coordinate space of this group.</div>
+</td>
+</tr>
+<tr class="rowColor">
+<td class="colFirst"><code>void</code></td>
+<td class="colLast"><code><strong><a href="../../../../../org/apache/poi/xslf/usermodel/XSLFGroupShape.html#setRotation(double)">setRotation</a></strong>(double&nbsp;theta)</code>
+<div class="block">Rotate this shape.</div>
+</td>
+</tr>
+</table>
+<ul class="blockList">
+<li class="blockList"><a name="methods_inherited_from_class_org.apache.poi.xslf.usermodel.XSLFShape">
+<!--   -->
+</a>
+<h3>Methods inherited from class&nbsp;org.apache.poi.xslf.usermodel.<a href="../../../../../org/apache/poi/xslf/usermodel/XSLFShape.html" title="class in org.apache.poi.xslf.usermodel">XSLFShape</a></h3>
+<code><a href="../../../../../org/apache/poi/xslf/usermodel/XSLFShape.html#draw(java.awt.Graphics2D, java.awt.geom.Rectangle2D)">draw</a>, <a href="../../../../../org/apache/poi/xslf/usermodel/XSLFShape.html#fetchShapeProperty(org.apache.poi.xslf.model.PropertyFetcher)">fetchShapeProperty</a>, <a href="../../../../../org/apache/poi/xslf/usermodel/XSLFShape.html#getBgPr()">getBgPr</a>, <a href="../../../../../org/apache/poi/xslf/usermodel/XSLFShape.html#getBgRef()">getBgRef</a>, <a href="../../../../../org/apache/poi/xslf/usermodel/XSLFShape.html#getChild(java.lang.Class, java.lang.String, java.lang.String)">getChild</a>, <a href="../../../../../org/apache/poi/xslf/usermodel/XSLFShape.html#getCNvPr()">getCNvPr</a>, <a href="../../../../../org/apache/poi/xslf/usermodel/XSLFShape.html#getCTPlaceholder()">getCTPlaceholder</a>, <a href="../../../../../org/apache/poi/xslf/usermodel/XSLFShape.html#getFillPaint()">getFillPaint</a>, <a href="../../../../../org/apache/poi/xslf/usermodel/XSLFShape.html#getParent()">getParent</a>, <a href="../../../../../org/apache/poi/xslf/usermodel/XSLFShape.html#getPlaceholder()">getPlaceholder</a>, <a href="../../../../../org/apache/poi/xslf/usermodel/XSLFShape.html#getShapeId()">getShapeId</a>, <a href="../../../../../org/apache/poi/xslf/usermodel/XSLFShape.html#getShapeName()">getShapeName</a>, <a href="../../../../../org/apache/poi/xslf/usermodel/XSLFShape.html#getShapeProperties()">getShapeProperties</a>, <a href="../../../../../org/apache/poi/xslf/usermodel/XSLFShape.html#getSheet()">getSheet</a>, <a href="../../../../../org/apache/poi/xslf/usermodel/XSLFShape.html#getSpStyle()">getSpStyle</a>, <a href="../../../../../org/apache/poi/xslf/usermodel/XSLFShape.html#getXmlObject()">getXmlObject</a>, <a href="../../../../../org/apache/poi/xslf/usermodel/XSLFShape.html#selectPaint(org.openxmlformats.schemas.drawingml.x2006.main.CTBlipFillProperties, org.apache.poi.openxml4j.opc.PackagePart)">selectPaint</a>, <a href="../../../../../org/apache/poi/xslf/usermodel/XSLFShape.html#selectPaint(org.openxmlformats.schemas.drawingml.x2006.main.CTGradientFillProperties, org.openxmlformats.schemas.drawingml.x2006.main.CTSchemeColor, org.apache.poi.xslf.usermodel.XSLFTheme)">selectPaint</a>, <a href="../../../../../org/apache/poi/xslf/usermodel/XSLFShape.html#selectPaint(org.openxmlformats.schemas.drawingml.x2006.main.CTSolidColorFillProperties, org.openxmlformats.schemas.drawingml.x2006.main.CTSchemeColor, org.apache.poi.xslf.usermodel.XSLFTheme)">selectPaint</a>, <a href="../../../../../org/apache/poi/xslf/usermodel/XSLFShape.html#selectPaint(org.openxmlformats.schemas.drawingml.x2006.main.CTStyleMatrixReference, org.apache.poi.xslf.usermodel.XSLFTheme, boolean)">selectPaint</a>, <a href="../../../../../org/apache/poi/xslf/usermodel/XSLFShape.html#selectPaint(org.apache.poi.xslf.usermodel.XSLFPropertiesDelegate.XSLFFillProperties, org.openxmlformats.schemas.drawingml.x2006.main.CTSchemeColor, org.apache.poi.openxml4j.opc.PackagePart, org.apache.poi.xslf.usermodel.XSLFTheme)">selectPaint</a>, <a href="../../../../../org/apache/poi/xslf/usermodel/XSLFShape.html#selectProperty(java.lang.Class, java.lang.String)">selectProperty</a>, <a href="../../../../../org/apache/poi/xslf/usermodel/XSLFShape.html#setParent(org.apache.poi.xslf.usermodel.XSLFShapeContainer)">setParent</a>, <a href="../../../../../org/apache/poi/xslf/usermodel/XSLFShape.html#setPlaceholder(org.apache.poi.sl.usermodel.Placeholder)">setPlaceholder</a></code></li>
+</ul>
+<ul class="blockList">
+<li class="blockList"><a name="methods_inherited_from_class_java.lang.Object">
+<!--   -->
+</a>
+<h3>Methods inherited from class&nbsp;java.lang.Object</h3>
+<code>clone, equals, finalize, getClass, hashCode, notify, notifyAll, toString, wait, wait, wait</code></li>
+</ul>
+<ul class="blockList">
+<li class="blockList"><a name="methods_inherited_from_class_org.apache.poi.sl.usermodel.Shape">
+<!--   -->
+</a>
+<h3>Methods inherited from interface&nbsp;org.apache.poi.sl.usermodel.<a href="../../../../../org/apache/poi/sl/usermodel/Shape.html" title="interface in org.apache.poi.sl.usermodel">Shape</a></h3>
+<code><a href="../../../../../org/apache/poi/sl/usermodel/Shape.html#draw(java.awt.Graphics2D, java.awt.geom.Rectangle2D)">draw</a>, <a href="../../../../../org/apache/poi/sl/usermodel/Shape.html#getParent()">getParent</a>, <a href="../../../../../org/apache/poi/sl/usermodel/Shape.html#getSheet()">getSheet</a></code></li>
+</ul>
+<ul class="blockList">
+<li class="blockList"><a name="methods_inherited_from_class_org.apache.poi.sl.usermodel.PlaceableShape">
+<!--   -->
+</a>
+<h3>Methods inherited from interface&nbsp;org.apache.poi.sl.usermodel.<a href="../../../../../org/apache/poi/sl/usermodel/PlaceableShape.html" title="interface in org.apache.poi.sl.usermodel">PlaceableShape</a></h3>
+<code><a href="../../../../../org/apache/poi/sl/usermodel/PlaceableShape.html#getParent()">getParent</a>, <a href="../../../../../org/apache/poi/sl/usermodel/PlaceableShape.html#getSheet()">getSheet</a></code></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</div>
+<div class="details">
+<ul class="blockList">
+<li class="blockList">
+<!-- ========= CONSTRUCTOR DETAIL ======== -->
+<ul class="blockList">
+<li class="blockList"><a name="constructor_detail">
+<!--   -->
+</a>
+<h3>Constructor Detail</h3>
+<a name="XSLFGroupShape(org.openxmlformats.schemas.presentationml.x2006.main.CTGroupShape, org.apache.poi.xslf.usermodel.XSLFSheet)">
+<!--   -->
+</a>
+<ul class="blockListLast">
+<li class="blockList">
+<h4>XSLFGroupShape</h4>
+<pre>protected&nbsp;XSLFGroupShape(org.openxmlformats.schemas.presentationml.x2006.main.CTGroupShape&nbsp;shape,
+              <a href="../../../../../org/apache/poi/xslf/usermodel/XSLFSheet.html" title="class in org.apache.poi.xslf.usermodel">XSLFSheet</a>&nbsp;sheet)</pre>
+</li>
+</ul>
+</li>
+</ul>
+<!-- ============ METHOD DETAIL ========== -->
+<ul class="blockList">
+<li class="blockList"><a name="method_detail">
+<!--   -->
+</a>
+<h3>Method Detail</h3>
+<a name="getGrpSpPr()">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>getGrpSpPr</h4>
+<pre>protected&nbsp;org.openxmlformats.schemas.drawingml.x2006.main.CTGroupShapeProperties&nbsp;getGrpSpPr()</pre>
+<dl>
+<dt><strong>Overrides:</strong></dt>
+<dd><code><a href="../../../../../org/apache/poi/xslf/usermodel/XSLFShape.html#getGrpSpPr()">getGrpSpPr</a></code>&nbsp;in class&nbsp;<code><a href="../../../../../org/apache/poi/xslf/usermodel/XSLFShape.html" title="class in org.apache.poi.xslf.usermodel">XSLFShape</a></code></dd>
+</dl>
+</li>
+</ul>
+<a name="getSafeXfrm()">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>getSafeXfrm</h4>
+<pre>protected&nbsp;org.openxmlformats.schemas.drawingml.x2006.main.CTGroupTransform2D&nbsp;getSafeXfrm()</pre>
+</li>
+</ul>
+<a name="getXfrm()">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>getXfrm</h4>
+<pre>protected&nbsp;org.openxmlformats.schemas.drawingml.x2006.main.CTGroupTransform2D&nbsp;getXfrm()</pre>
+</li>
+</ul>
+<a name="getAnchor()">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>getAnchor</h4>
+<pre>public&nbsp;java.awt.geom.Rectangle2D&nbsp;getAnchor()</pre>
+<div class="block"><strong>Description copied from interface:&nbsp;<code><a href="../../../../../org/apache/poi/sl/usermodel/Shape.html#getAnchor()">Shape</a></code></strong></div>
+<div class="block">Returns the anchor (the bounding box rectangle) of this shape.
+ All coordinates are expressed in points (72 dpi).</div>
+<dl>
+<dt><strong>Specified by:</strong></dt>
+<dd><code><a href="../../../../../org/apache/poi/sl/usermodel/PlaceableShape.html#getAnchor()">getAnchor</a></code>&nbsp;in interface&nbsp;<code><a href="../../../../../org/apache/poi/sl/usermodel/PlaceableShape.html" title="interface in org.apache.poi.sl.usermodel">PlaceableShape</a>&lt;<a href="../../../../../org/apache/poi/xslf/usermodel/XSLFShape.html" title="class in org.apache.poi.xslf.usermodel">XSLFShape</a>,<a href="../../../../../org/apache/poi/xslf/usermodel/XSLFTextParagraph.html" title="class in org.apache.poi.xslf.usermodel">XSLFTextParagraph</a>&gt;</code></dd>
+<dt><strong>Specified by:</strong></dt>
+<dd><code><a href="../../../../../org/apache/poi/sl/usermodel/Shape.html#getAnchor()">getAnchor</a></code>&nbsp;in interface&nbsp;<code><a href="../../../../../org/apache/poi/sl/usermodel/Shape.html" title="interface in org.apache.poi.sl.usermodel">Shape</a>&lt;<a href="../../../../../org/apache/poi/xslf/usermodel/XSLFShape.html" title="class in org.apache.poi.xslf.usermodel">XSLFShape</a>,<a href="../../../../../org/apache/poi/xslf/usermodel/XSLFTextParagraph.html" title="class in org.apache.poi.xslf.usermodel">XSLFTextParagraph</a>&gt;</code></dd>
+<dt><span class="strong">Returns:</span></dt><dd>the anchor of this shape</dd></dl>
+</li>
+</ul>
+<a name="setAnchor(java.awt.geom.Rectangle2D)">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>setAnchor</h4>
+<pre>public&nbsp;void&nbsp;setAnchor(java.awt.geom.Rectangle2D&nbsp;anchor)</pre>
+<dl>
+<dt><strong>Specified by:</strong></dt>
+<dd><code><a href="../../../../../org/apache/poi/sl/usermodel/PlaceableShape.html#setAnchor(java.awt.geom.Rectangle2D)">setAnchor</a></code>&nbsp;in interface&nbsp;<code><a href="../../../../../org/apache/poi/sl/usermodel/PlaceableShape.html" title="interface in org.apache.poi.sl.usermodel">PlaceableShape</a>&lt;<a href="../../../../../org/apache/poi/xslf/usermodel/XSLFShape.html" title="class in org.apache.poi.xslf.usermodel">XSLFShape</a>,<a href="../../../../../org/apache/poi/xslf/usermodel/XSLFTextParagraph.html" title="class in org.apache.poi.xslf.usermodel">XSLFTextParagraph</a>&gt;</code></dd>
+<dt><span class="strong">Parameters:</span></dt><dd><code>anchor</code> - the position of this shape within the drawing canvas.
+               The coordinates are expressed in points</dd></dl>
+</li>
+</ul>
+<a name="getInteriorAnchor()">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>getInteriorAnchor</h4>
+<pre>public&nbsp;java.awt.geom.Rectangle2D&nbsp;getInteriorAnchor()</pre>
+<div class="block"><strong>Description copied from interface:&nbsp;<code><a href="../../../../../org/apache/poi/sl/usermodel/GroupShape.html#getInteriorAnchor()">GroupShape</a></code></strong></div>
+<div class="block">Gets the coordinate space of this group.  All children are constrained
+ to these coordinates.</div>
+<dl>
+<dt><strong>Specified by:</strong></dt>
+<dd><code><a href="../../../../../org/apache/poi/sl/usermodel/GroupShape.html#getInteriorAnchor()">getInteriorAnchor</a></code>&nbsp;in interface&nbsp;<code><a href="../../../../../org/apache/poi/sl/usermodel/GroupShape.html" title="interface in org.apache.poi.sl.usermodel">GroupShape</a>&lt;<a href="../../../../../org/apache/poi/xslf/usermodel/XSLFShape.html" title="class in org.apache.poi.xslf.usermodel">XSLFShape</a>,<a href="../../../../../org/apache/poi/xslf/usermodel/XSLFTextParagraph.html" title="class in org.apache.poi.xslf.usermodel">XSLFTextParagraph</a>&gt;</code></dd>
+<dt><span class="strong">Returns:</span></dt><dd>the coordinates of the child extents rectangle
+ used for calculations of grouping, scaling, and rotation
+ behavior of shapes placed within a group.</dd></dl>
+</li>
+</ul>
+<a name="setInteriorAnchor(java.awt.geom.Rectangle2D)">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>setInteriorAnchor</h4>
+<pre>public&nbsp;void&nbsp;setInteriorAnchor(java.awt.geom.Rectangle2D&nbsp;anchor)</pre>
+<div class="block"><strong>Description copied from interface:&nbsp;<code><a href="../../../../../org/apache/poi/sl/usermodel/GroupShape.html#setInteriorAnchor(java.awt.geom.Rectangle2D)">GroupShape</a></code></strong></div>
+<div class="block">Sets the coordinate space of this group.  All children are constrained
+ to these coordinates.</div>
+<dl>
+<dt><strong>Specified by:</strong></dt>
+<dd><code><a href="../../../../../org/apache/poi/sl/usermodel/GroupShape.html#setInteriorAnchor(java.awt.geom.Rectangle2D)">setInteriorAnchor</a></code>&nbsp;in interface&nbsp;<code><a href="../../../../../org/apache/poi/sl/usermodel/GroupShape.html" title="interface in org.apache.poi.sl.usermodel">GroupShape</a>&lt;<a href="../../../../../org/apache/poi/xslf/usermodel/XSLFShape.html" title="class in org.apache.poi.xslf.usermodel">XSLFShape</a>,<a href="../../../../../org/apache/poi/xslf/usermodel/XSLFTextParagraph.html" title="class in org.apache.poi.xslf.usermodel">XSLFTextParagraph</a>&gt;</code></dd>
+<dt><span class="strong">Parameters:</span></dt><dd><code>anchor</code> - the coordinates of the child extents rectangle
+ used for calculations of grouping, scaling, and rotation
+ behavior of shapes placed within a group.</dd></dl>
+</li>
+</ul>
+<a name="getShapes()">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>getShapes</h4>
+<pre>public&nbsp;java.util.List&lt;<a href="../../../../../org/apache/poi/xslf/usermodel/XSLFShape.html" title="class in org.apache.poi.xslf.usermodel">XSLFShape</a>&gt;&nbsp;getShapes()</pre>
+<div class="block"><strong>Description copied from interface:&nbsp;<code><a href="../../../../../org/apache/poi/sl/usermodel/ShapeContainer.html#getShapes()">ShapeContainer</a></code></strong></div>
+<div class="block">Returns an list containing all of the elements in this container in proper
+ sequence (from first to last element).</div>
+<dl>
+<dt><strong>Specified by:</strong></dt>
+<dd><code><a href="../../../../../org/apache/poi/sl/usermodel/ShapeContainer.html#getShapes()">getShapes</a></code>&nbsp;in interface&nbsp;<code><a href="../../../../../org/apache/poi/sl/usermodel/ShapeContainer.html" title="interface in org.apache.poi.sl.usermodel">ShapeContainer</a>&lt;<a href="../../../../../org/apache/poi/xslf/usermodel/XSLFShape.html" title="class in org.apache.poi.xslf.usermodel">XSLFShape</a>,<a href="../../../../../org/apache/poi/xslf/usermodel/XSLFTextParagraph.html" title="class in org.apache.poi.xslf.usermodel">XSLFTextParagraph</a>&gt;</code></dd>
+<dt><span class="strong">Returns:</span></dt><dd>child shapes contained within this group</dd></dl>
+</li>
+</ul>
+<a name="iterator()">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>iterator</h4>
+<pre>public&nbsp;java.util.Iterator&lt;<a href="../../../../../org/apache/poi/xslf/usermodel/XSLFShape.html" title="class in org.apache.poi.xslf.usermodel">XSLFShape</a>&gt;&nbsp;iterator()</pre>
+<div class="block">Returns an iterator over the shapes in this sheet</div>
+<dl>
+<dt><strong>Specified by:</strong></dt>
+<dd><code>iterator</code>&nbsp;in interface&nbsp;<code>java.lang.Iterable&lt;<a href="../../../../../org/apache/poi/xslf/usermodel/XSLFShape.html" title="class in org.apache.poi.xslf.usermodel">XSLFShape</a>&gt;</code></dd>
+<dt><span class="strong">Returns:</span></dt><dd>an iterator over the shapes in this sheet</dd></dl>
+</li>
+</ul>
+<a name="removeShape(org.apache.poi.xslf.usermodel.XSLFShape)">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>removeShape</h4>
+<pre>public&nbsp;boolean&nbsp;removeShape(<a href="../../../../../org/apache/poi/xslf/usermodel/XSLFShape.html" title="class in org.apache.poi.xslf.usermodel">XSLFShape</a>&nbsp;xShape)</pre>
+<div class="block">Remove the specified shape from this group</div>
+<dl>
+<dt><strong>Specified by:</strong></dt>
+<dd><code><a href="../../../../../org/apache/poi/sl/usermodel/ShapeContainer.html#removeShape(S)">removeShape</a></code>&nbsp;in interface&nbsp;<code><a href="../../../../../org/apache/poi/sl/usermodel/ShapeContainer.html" title="interface in org.apache.poi.sl.usermodel">ShapeContainer</a>&lt;<a href="../../../../../org/apache/poi/xslf/usermodel/XSLFShape.html" title="class in org.apache.poi.xslf.usermodel">XSLFShape</a>,<a href="../../../../../org/apache/poi/xslf/usermodel/XSLFTextParagraph.html" title="class in org.apache.poi.xslf.usermodel">XSLFTextParagraph</a>&gt;</code></dd>
+<dt><span class="strong">Parameters:</span></dt><dd><code>xShape</code> - the shape to be removed from this sheet, if present</dd>
+<dt><span class="strong">Returns:</span></dt><dd><tt>true</tt> if this sheet contained the specified element</dd></dl>
+</li>
+</ul>
+<a name="createAutoShape()">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>createAutoShape</h4>
+<pre>public&nbsp;<a href="../../../../../org/apache/poi/xslf/usermodel/XSLFAutoShape.html" title="class in org.apache.poi.xslf.usermodel">XSLFAutoShape</a>&nbsp;createAutoShape()</pre>
+<div class="block"><strong>Description copied from interface:&nbsp;<code><a href="../../../../../org/apache/poi/sl/usermodel/ShapeContainer.html#createAutoShape()">ShapeContainer</a></code></strong></div>
+<div class="block">create a new shape with a predefined geometry and add it to this shape container</div>
+<dl>
+<dt><strong>Specified by:</strong></dt>
+<dd><code><a href="../../../../../org/apache/poi/sl/usermodel/ShapeContainer.html#createAutoShape()">createAutoShape</a></code>&nbsp;in interface&nbsp;<code><a href="../../../../../org/apache/poi/sl/usermodel/ShapeContainer.html" title="interface in org.apache.poi.sl.usermodel">ShapeContainer</a>&lt;<a href="../../../../../org/apache/poi/xslf/usermodel/XSLFShape.html" title="class in org.apache.poi.xslf.usermodel">XSLFShape</a>,<a href="../../../../../org/apache/poi/xslf/usermodel/XSLFTextParagraph.html" title="class in org.apache.poi.xslf.usermodel">XSLFTextParagraph</a>&gt;</code></dd>
+<dt><strong>Specified by:</strong></dt>
+<dd><code><a href="../../../../../org/apache/poi/xslf/usermodel/XSLFShapeContainer.html#createAutoShape()">createAutoShape</a></code>&nbsp;in interface&nbsp;<code><a href="../../../../../org/apache/poi/xslf/usermodel/XSLFShapeContainer.html" title="interface in org.apache.poi.xslf.usermodel">XSLFShapeContainer</a></code></dd>
+</dl>
+</li>
+</ul>
+<a name="createFreeform()">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>createFreeform</h4>
+<pre>public&nbsp;<a href="../../../../../org/apache/poi/xslf/usermodel/XSLFFreeformShape.html" title="class in org.apache.poi.xslf.usermodel">XSLFFreeformShape</a>&nbsp;createFreeform()</pre>
+<div class="block"><strong>Description copied from interface:&nbsp;<code><a href="../../../../../org/apache/poi/sl/usermodel/ShapeContainer.html#createFreeform()">ShapeContainer</a></code></strong></div>
+<div class="block">create a new shape with a custom geometry</div>
+<dl>
+<dt><strong>Specified by:</strong></dt>
+<dd><code><a href="../../../../../org/apache/poi/sl/usermodel/ShapeContainer.html#createFreeform()">createFreeform</a></code>&nbsp;in interface&nbsp;<code><a href="../../../../../org/apache/poi/sl/usermodel/ShapeContainer.html" title="interface in org.apache.poi.sl.usermodel">ShapeContainer</a>&lt;<a href="../../../../../org/apache/poi/xslf/usermodel/XSLFShape.html" title="class in org.apache.poi.xslf.usermodel">XSLFShape</a>,<a href="../../../../../org/apache/poi/xslf/usermodel/XSLFTextParagraph.html" title="class in org.apache.poi.xslf.usermodel">XSLFTextParagraph</a>&gt;</code></dd>
+<dt><strong>Specified by:</strong></dt>
+<dd><code><a href="../../../../../org/apache/poi/xslf/usermodel/XSLFShapeContainer.html#createFreeform()">createFreeform</a></code>&nbsp;in interface&nbsp;<code><a href="../../../../../org/apache/poi/xslf/usermodel/XSLFShapeContainer.html" title="interface in org.apache.poi.xslf.usermodel">XSLFShapeContainer</a></code></dd>
+</dl>
+</li>
+</ul>
+<a name="createTextBox()">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>createTextBox</h4>
+<pre>public&nbsp;<a href="../../../../../org/apache/poi/xslf/usermodel/XSLFTextBox.html" title="class in org.apache.poi.xslf.usermodel">XSLFTextBox</a>&nbsp;createTextBox()</pre>
+<div class="block"><strong>Description copied from interface:&nbsp;<code><a href="../../../../../org/apache/poi/sl/usermodel/ShapeContainer.html#createTextBox()">ShapeContainer</a></code></strong></div>
+<div class="block">create a text box</div>
+<dl>
+<dt><strong>Specified by:</strong></dt>
+<dd><code><a href="../../../../../org/apache/poi/sl/usermodel/ShapeContainer.html#createTextBox()">createTextBox</a></code>&nbsp;in interface&nbsp;<code><a href="../../../../../org/apache/poi/sl/usermodel/ShapeContainer.html" title="interface in org.apache.poi.sl.usermodel">ShapeContainer</a>&lt;<a href="../../../../../org/apache/poi/xslf/usermodel/XSLFShape.html" title="class in org.apache.poi.xslf.usermodel">XSLFShape</a>,<a href="../../../../../org/apache/poi/xslf/usermodel/XSLFTextParagraph.html" title="class in org.apache.poi.xslf.usermodel">XSLFTextParagraph</a>&gt;</code></dd>
+<dt><strong>Specified by:</strong></dt>
+<dd><code><a href="../../../../../org/apache/poi/xslf/usermodel/XSLFShapeContainer.html#createTextBox()">createTextBox</a></code>&nbsp;in interface&nbsp;<code><a href="../../../../../org/apache/poi/xslf/usermodel/XSLFShapeContainer.html" title="interface in org.apache.poi.xslf.usermodel">XSLFShapeContainer</a></code></dd>
+</dl>
+</li>
+</ul>
+<a name="createConnector()">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>createConnector</h4>
+<pre>public&nbsp;<a href="../../../../../org/apache/poi/xslf/usermodel/XSLFConnectorShape.html" title="class in org.apache.poi.xslf.usermodel">XSLFConnectorShape</a>&nbsp;createConnector()</pre>
+<div class="block"><strong>Description copied from interface:&nbsp;<code><a href="../../../../../org/apache/poi/sl/usermodel/ShapeContainer.html#createConnector()">ShapeContainer</a></code></strong></div>
+<div class="block">create a connector</div>
+<dl>
+<dt><strong>Specified by:</strong></dt>
+<dd><code><a href="../../../../../org/apache/poi/sl/usermodel/ShapeContainer.html#createConnector()">createConnector</a></code>&nbsp;in interface&nbsp;<code><a href="../../../../../org/apache/poi/sl/usermodel/ShapeContainer.html" title="interface in org.apache.poi.sl.usermodel">ShapeContainer</a>&lt;<a href="../../../../../org/apache/poi/xslf/usermodel/XSLFShape.html" title="class in org.apache.poi.xslf.usermodel">XSLFShape</a>,<a href="../../../../../org/apache/poi/xslf/usermodel/XSLFTextParagraph.html" title="class in org.apache.poi.xslf.usermodel">XSLFTextParagraph</a>&gt;</code></dd>
+<dt><strong>Specified by:</strong></dt>
+<dd><code><a href="../../../../../org/apache/poi/xslf/usermodel/XSLFShapeContainer.html#createConnector()">createConnector</a></code>&nbsp;in interface&nbsp;<code><a href="../../../../../org/apache/poi/xslf/usermodel/XSLFShapeContainer.html" title="interface in org.apache.poi.xslf.usermodel">XSLFShapeContainer</a></code></dd>
+</dl>
+</li>
+</ul>
+<a name="createGroup()">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>createGroup</h4>
+<pre>public&nbsp;<a href="../../../../../org/apache/poi/xslf/usermodel/XSLFGroupShape.html" title="class in org.apache.poi.xslf.usermodel">XSLFGroupShape</a>&nbsp;createGroup()</pre>
+<div class="block"><strong>Description copied from interface:&nbsp;<code><a href="../../../../../org/apache/poi/sl/usermodel/ShapeContainer.html#createGroup()">ShapeContainer</a></code></strong></div>
+<div class="block">create a group of shapes belonging to this container</div>
+<dl>
+<dt><strong>Specified by:</strong></dt>
+<dd><code><a href="../../../../../org/apache/poi/sl/usermodel/ShapeContainer.html#createGroup()">createGroup</a></code>&nbsp;in interface&nbsp;<code><a href="../../../../../org/apache/poi/sl/usermodel/ShapeContainer.html" title="interface in org.apache.poi.sl.usermodel">ShapeContainer</a>&lt;<a href="../../../../../org/apache/poi/xslf/usermodel/XSLFShape.html" title="class in org.apache.poi.xslf.usermodel">XSLFShape</a>,<a href="../../../../../org/apache/poi/xslf/usermodel/XSLFTextParagraph.html" title="class in org.apache.poi.xslf.usermodel">XSLFTextParagraph</a>&gt;</code></dd>
+<dt><strong>Specified by:</strong></dt>
+<dd><code><a href="../../../../../org/apache/poi/xslf/usermodel/XSLFShapeContainer.html#createGroup()">createGroup</a></code>&nbsp;in interface&nbsp;<code><a href="../../../../../org/apache/poi/xslf/usermodel/XSLFShapeContainer.html" title="interface in org.apache.poi.xslf.usermodel">XSLFShapeContainer</a></code></dd>
+</dl>
+</li>
+</ul>
+<a name="createPicture(org.apache.poi.sl.usermodel.PictureData)">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>createPicture</h4>
+<pre>public&nbsp;<a href="../../../../../org/apache/poi/xslf/usermodel/XSLFPictureShape.html" title="class in org.apache.poi.xslf.usermodel">XSLFPictureShape</a>&nbsp;createPicture(<a href="../../../../../org/apache/poi/sl/usermodel/PictureData.html" title="interface in org.apache.poi.sl.usermodel">PictureData</a>&nbsp;pictureData)</pre>
+<div class="block"><strong>Description copied from interface:&nbsp;<code><a href="../../../../../org/apache/poi/sl/usermodel/ShapeContainer.html#createPicture(org.apache.poi.sl.usermodel.PictureData)">ShapeContainer</a></code></strong></div>
+<div class="block">create a picture belonging to this container</div>
+<dl>
+<dt><strong>Specified by:</strong></dt>
+<dd><code><a href="../../../../../org/apache/poi/sl/usermodel/ShapeContainer.html#createPicture(org.apache.poi.sl.usermodel.PictureData)">createPicture</a></code>&nbsp;in interface&nbsp;<code><a href="../../../../../org/apache/poi/sl/usermodel/ShapeContainer.html" title="interface in org.apache.poi.sl.usermodel">ShapeContainer</a>&lt;<a href="../../../../../org/apache/poi/xslf/usermodel/XSLFShape.html" title="class in org.apache.poi.xslf.usermodel">XSLFShape</a>,<a href="../../../../../org/apache/poi/xslf/usermodel/XSLFTextParagraph.html" title="class in org.apache.poi.xslf.usermodel">XSLFTextParagraph</a>&gt;</code></dd>
+<dt><strong>Specified by:</strong></dt>
+<dd><code><a href="../../../../../org/apache/poi/xslf/usermodel/XSLFShapeContainer.html#createPicture(org.apache.poi.sl.usermodel.PictureData)">createPicture</a></code>&nbsp;in interface&nbsp;<code><a href="../../../../../org/apache/poi/xslf/usermodel/XSLFShapeContainer.html" title="interface in org.apache.poi.xslf.usermodel">XSLFShapeContainer</a></code></dd>
+</dl>
+</li>
+</ul>
+<a name="createTable()">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>createTable</h4>
+<pre>public&nbsp;<a href="../../../../../org/apache/poi/xslf/usermodel/XSLFTable.html" title="class in org.apache.poi.xslf.usermodel">XSLFTable</a>&nbsp;createTable()</pre>
+</li>
+</ul>
+<a name="createTable(int, int)">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>createTable</h4>
+<pre>public&nbsp;<a href="../../../../../org/apache/poi/xslf/usermodel/XSLFTable.html" title="class in org.apache.poi.xslf.usermodel">XSLFTable</a>&nbsp;createTable(int&nbsp;numRows,
+                    int&nbsp;numCols)</pre>
+<div class="block"><strong>Description copied from interface:&nbsp;<code><a href="../../../../../org/apache/poi/sl/usermodel/ShapeContainer.html#createTable(int, int)">ShapeContainer</a></code></strong></div>
+<div class="block">Create a new Table of the given number of rows and columns</div>
+<dl>
+<dt><strong>Specified by:</strong></dt>
+<dd><code><a href="../../../../../org/apache/poi/sl/usermodel/ShapeContainer.html#createTable(int, int)">createTable</a></code>&nbsp;in interface&nbsp;<code><a href="../../../../../org/apache/poi/sl/usermodel/ShapeContainer.html" title="interface in org.apache.poi.sl.usermodel">ShapeContainer</a>&lt;<a href="../../../../../org/apache/poi/xslf/usermodel/XSLFShape.html" title="class in org.apache.poi.xslf.usermodel">XSLFShape</a>,<a href="../../../../../org/apache/poi/xslf/usermodel/XSLFTextParagraph.html" title="class in org.apache.poi.xslf.usermodel">XSLFTextParagraph</a>&gt;</code></dd>
+<dt><span class="strong">Parameters:</span></dt><dd><code>numRows</code> - the number of rows</dd><dd><code>numCols</code> - the number of columns</dd></dl>
+</li>
+</ul>
+<a name="setFlipHorizontal(boolean)">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>setFlipHorizontal</h4>
+<pre>public&nbsp;void&nbsp;setFlipHorizontal(boolean&nbsp;flip)</pre>
+<dl>
+<dt><strong>Specified by:</strong></dt>
+<dd><code><a href="../../../../../org/apache/poi/sl/usermodel/PlaceableShape.html#setFlipHorizontal(boolean)">setFlipHorizontal</a></code>&nbsp;in interface&nbsp;<code><a href="../../../../../org/apache/poi/sl/usermodel/PlaceableShape.html" title="interface in org.apache.poi.sl.usermodel">PlaceableShape</a>&lt;<a href="../../../../../org/apache/poi/xslf/usermodel/XSLFShape.html" title="class in org.apache.poi.xslf.usermodel">XSLFShape</a>,<a href="../../../../../org/apache/poi/xslf/usermodel/XSLFTextParagraph.html" title="class in org.apache.poi.xslf.usermodel">XSLFTextParagraph</a>&gt;</code></dd>
+<dt><span class="strong">Parameters:</span></dt><dd><code>flip</code> - whether the shape is horizontally flipped</dd></dl>
+</li>
+</ul>
+<a name="setFlipVertical(boolean)">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>setFlipVertical</h4>
+<pre>public&nbsp;void&nbsp;setFlipVertical(boolean&nbsp;flip)</pre>
+<div class="block"><strong>Description copied from interface:&nbsp;<code><a href="../../../../../org/apache/poi/sl/usermodel/PlaceableShape.html#setFlipVertical(boolean)">PlaceableShape</a></code></strong></div>
+<div class="block">Whether the shape is vertically flipped</div>
+<dl>
+<dt><strong>Specified by:</strong></dt>
+<dd><code><a href="../../../../../org/apache/poi/sl/usermodel/PlaceableShape.html#setFlipVertical(boolean)">setFlipVertical</a></code>&nbsp;in interface&nbsp;<code><a href="../../../../../org/apache/poi/sl/usermodel/PlaceableShape.html" title="interface in org.apache.poi.sl.usermodel">PlaceableShape</a>&lt;<a href="../../../../../org/apache/poi/xslf/usermodel/XSLFShape.html" title="class in org.apache.poi.xslf.usermodel">XSLFShape</a>,<a href="../../../../../org/apache/poi/xslf/usermodel/XSLFTextParagraph.html" title="class in org.apache.poi.xslf.usermodel">XSLFTextParagraph</a>&gt;</code></dd>
+<dt><span class="strong">Parameters:</span></dt><dd><code>flip</code> - whether the shape is vertically flipped</dd></dl>
+</li>
+</ul>
+<a name="getFlipHorizontal()">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>getFlipHorizontal</h4>
+<pre>public&nbsp;boolean&nbsp;getFlipHorizontal()</pre>
+<div class="block"><strong>Description copied from interface:&nbsp;<code><a href="../../../../../org/apache/poi/sl/usermodel/PlaceableShape.html#getFlipHorizontal()">PlaceableShape</a></code></strong></div>
+<div class="block">Whether the shape is horizontally flipped</div>
+<dl>
+<dt><strong>Specified by:</strong></dt>
+<dd><code><a href="../../../../../org/apache/poi/sl/usermodel/PlaceableShape.html#getFlipHorizontal()">getFlipHorizontal</a></code>&nbsp;in interface&nbsp;<code><a href="../../../../../org/apache/poi/sl/usermodel/PlaceableShape.html" title="interface in org.apache.poi.sl.usermodel">PlaceableShape</a>&lt;<a href="../../../../../org/apache/poi/xslf/usermodel/XSLFShape.html" title="class in org.apache.poi.xslf.usermodel">XSLFShape</a>,<a href="../../../../../org/apache/poi/xslf/usermodel/XSLFTextParagraph.html" title="class in org.apache.poi.xslf.usermodel">XSLFTextParagraph</a>&gt;</code></dd>
+<dt><span class="strong">Returns:</span></dt><dd>whether the shape is horizontally flipped</dd></dl>
+</li>
+</ul>
+<a name="getFlipVertical()">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>getFlipVertical</h4>
+<pre>public&nbsp;boolean&nbsp;getFlipVertical()</pre>
+<div class="block"><strong>Description copied from interface:&nbsp;<code><a href="../../../../../org/apache/poi/sl/usermodel/PlaceableShape.html#getFlipVertical()">PlaceableShape</a></code></strong></div>
+<div class="block">Whether the shape is vertically flipped</div>
+<dl>
+<dt><strong>Specified by:</strong></dt>
+<dd><code><a href="../../../../../org/apache/poi/sl/usermodel/PlaceableShape.html#getFlipVertical()">getFlipVertical</a></code>&nbsp;in interface&nbsp;<code><a href="../../../../../org/apache/poi/sl/usermodel/PlaceableShape.html" title="interface in org.apache.poi.sl.usermodel">PlaceableShape</a>&lt;<a href="../../../../../org/apache/poi/xslf/usermodel/XSLFShape.html" title="class in org.apache.poi.xslf.usermodel">XSLFShape</a>,<a href="../../../../../org/apache/poi/xslf/usermodel/XSLFTextParagraph.html" title="class in org.apache.poi.xslf.usermodel">XSLFTextParagraph</a>&gt;</code></dd>
+<dt><span class="strong">Returns:</span></dt><dd>whether the shape is vertically flipped</dd></dl>
+</li>
+</ul>
+<a name="setRotation(double)">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>setRotation</h4>
+<pre>public&nbsp;void&nbsp;setRotation(double&nbsp;theta)</pre>
+<div class="block"><strong>Description copied from interface:&nbsp;<code><a href="../../../../../org/apache/poi/sl/usermodel/PlaceableShape.html#setRotation(double)">PlaceableShape</a></code></strong></div>
+<div class="block">Rotate this shape.
+ <p>
+ Positive angles are clockwise (i.e., towards the positive y axis);
+ negative angles are counter-clockwise (i.e., towards the negative y axis).
+ </p></div>
+<dl>
+<dt><strong>Specified by:</strong></dt>
+<dd><code><a href="../../../../../org/apache/poi/sl/usermodel/PlaceableShape.html#setRotation(double)">setRotation</a></code>&nbsp;in interface&nbsp;<code><a href="../../../../../org/apache/poi/sl/usermodel/PlaceableShape.html" title="interface in org.apache.poi.sl.usermodel">PlaceableShape</a>&lt;<a href="../../../../../org/apache/poi/xslf/usermodel/XSLFShape.html" title="class in org.apache.poi.xslf.usermodel">XSLFShape</a>,<a href="../../../../../org/apache/poi/xslf/usermodel/XSLFTextParagraph.html" title="class in org.apache.poi.xslf.usermodel">XSLFTextParagraph</a>&gt;</code></dd>
+<dt><span class="strong">Parameters:</span></dt><dd><code>theta</code> - the rotation angle in degrees.</dd></dl>
+</li>
+</ul>
+<a name="getRotation()">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>getRotation</h4>
+<pre>public&nbsp;double&nbsp;getRotation()</pre>
+<div class="block"><strong>Description copied from interface:&nbsp;<code><a href="../../../../../org/apache/poi/sl/usermodel/PlaceableShape.html#getRotation()">PlaceableShape</a></code></strong></div>
+<div class="block">Rotation angle in degrees
+ <p>
+ Positive angles are clockwise (i.e., towards the positive y axis);
+ negative angles are counter-clockwise (i.e., towards the negative y axis).
+ </p></div>
+<dl>
+<dt><strong>Specified by:</strong></dt>
+<dd><code><a href="../../../../../org/apache/poi/sl/usermodel/PlaceableShape.html#getRotation()">getRotation</a></code>&nbsp;in interface&nbsp;<code><a href="../../../../../org/apache/poi/sl/usermodel/PlaceableShape.html" title="interface in org.apache.poi.sl.usermodel">PlaceableShape</a>&lt;<a href="../../../../../org/apache/poi/xslf/usermodel/XSLFShape.html" title="class in org.apache.poi.xslf.usermodel">XSLFShape</a>,<a href="../../../../../org/apache/poi/xslf/usermodel/XSLFTextParagraph.html" title="class in org.apache.poi.xslf.usermodel">XSLFTextParagraph</a>&gt;</code></dd>
+<dt><span class="strong">Returns:</span></dt><dd>rotation angle in degrees</dd></dl>
+</li>
+</ul>
+<a name="clear()">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>clear</h4>
+<pre>public&nbsp;void&nbsp;clear()</pre>
+<div class="block">Removes all of the elements from this container (optional operation).
+ The container will be empty after this call returns.</div>
+<dl>
+<dt><strong>Specified by:</strong></dt>
+<dd><code><a href="../../../../../org/apache/poi/xslf/usermodel/XSLFShapeContainer.html#clear()">clear</a></code>&nbsp;in interface&nbsp;<code><a href="../../../../../org/apache/poi/xslf/usermodel/XSLFShapeContainer.html" title="interface in org.apache.poi.xslf.usermodel">XSLFShapeContainer</a></code></dd>
+</dl>
+</li>
+</ul>
+<a name="addShape(org.apache.poi.xslf.usermodel.XSLFShape)">
+<!--   -->
+</a>
+<ul class="blockListLast">
+<li class="blockList">
+<h4>addShape</h4>
+<pre>public&nbsp;void&nbsp;addShape(<a href="../../../../../org/apache/poi/xslf/usermodel/XSLFShape.html" title="class in org.apache.poi.xslf.usermodel">XSLFShape</a>&nbsp;shape)</pre>
+<dl>
+<dt><strong>Specified by:</strong></dt>
+<dd><code><a href="../../../../../org/apache/poi/sl/usermodel/ShapeContainer.html#addShape(S)">addShape</a></code>&nbsp;in interface&nbsp;<code><a href="../../../../../org/apache/poi/sl/usermodel/ShapeContainer.html" title="interface in org.apache.poi.sl.usermodel">ShapeContainer</a>&lt;<a href="../../../../../org/apache/poi/xslf/usermodel/XSLFShape.html" title="class in org.apache.poi.xslf.usermodel">XSLFShape</a>,<a href="../../../../../org/apache/poi/xslf/usermodel/XSLFTextParagraph.html" title="class in org.apache.poi.xslf.usermodel">XSLFTextParagraph</a>&gt;</code></dd>
+</dl>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</div>
+</div>
+<!-- ========= END OF CLASS DATA ========= -->
+<!-- ======= START OF BOTTOM NAVBAR ====== -->
+<div class="bottomNav"><a name="navbar_bottom">
+<!--   -->
+</a><a href="#skip-navbar_bottom" title="Skip navigation links"></a><a name="navbar_bottom_firstrow">
+<!--   -->
+</a>
+<ul class="navList" title="Navigation">
+<li><a href="../../../../../overview-summary.html">Overview</a></li>
+<li><a href="package-summary.html">Package</a></li>
+<li class="navBarCell1Rev">Class</li>
+<li><a href="class-use/XSLFGroupShape.html">Use</a></li>
+<li><a href="package-tree.html">Tree</a></li>
+<li><a href="../../../../../deprecated-list.html">Deprecated</a></li>
+<li><a href="../../../../../index-all.html">Index</a></li>
+<li><a href="../../../../../help-doc.html">Help</a></li>
+</ul>
+</div>
+<div class="subNav">
+<ul class="navList">
+<li><a href="../../../../../org/apache/poi/xslf/usermodel/XSLFGraphicFrame.html" title="class in org.apache.poi.xslf.usermodel"><span class="strong">PREV CLASS</span></a></li>
+<li><a href="../../../../../org/apache/poi/xslf/usermodel/XSLFHyperlink.html" title="class in org.apache.poi.xslf.usermodel"><span class="strong">NEXT CLASS</span></a></li>
+</ul>
+<ul class="navList">
+<li><a href="../../../../../index.html?org/apache/poi/xslf/usermodel/XSLFGroupShape.html" target="_top">FRAMES</a></li>
+<li><a href="XSLFGroupShape.html" target="_top">NO FRAMES</a></li>
+</ul>
+<ul class="navList" id="allclasses_navbar_bottom">
+<li><a href="../../../../../allclasses-noframe.html">All Classes</a></li>
+</ul>
+<div>
+<script type="text/javascript"><!--
+  allClassesLink = document.getElementById("allclasses_navbar_bottom");
+  if(window==top) {
+    allClassesLink.style.display = "block";
+  }
+  else {
+    allClassesLink.style.display = "none";
+  }
+  //-->
+</script>
+</div>
+<div>
+<ul class="subNavList">
+<li>SUMMARY:&nbsp;</li>
+<li>NESTED&nbsp;|&nbsp;</li>
+<li><a href="#fields_inherited_from_class_org.apache.poi.xslf.usermodel.XSLFShape">FIELD</a>&nbsp;|&nbsp;</li>
+<li><a href="#constructor_summary">CONSTR</a>&nbsp;|&nbsp;</li>
+<li><a href="#method_summary">METHOD</a></li>
+</ul>
+<ul class="subNavList">
+<li>DETAIL:&nbsp;</li>
+<li>FIELD&nbsp;|&nbsp;</li>
+<li><a href="#constructor_detail">CONSTR</a>&nbsp;|&nbsp;</li>
+<li><a href="#method_detail">METHOD</a></li>
+</ul>
+</div>
+<a name="skip-navbar_bottom">
+<!--   -->
+</a></div>
+<!-- ======== END OF BOTTOM NAVBAR ======= -->
+<p class="legalCopy"><small>
+                <i>Copyright 2017 The Apache Software Foundation or
+        its licensors, as applicable.</i>
+            </small></p>
+</body>
+</html>

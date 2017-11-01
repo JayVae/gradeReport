@@ -1,0 +1,329 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<!-- NewPage -->
+<html lang="en">
+<head>
+<title>SXSSFWorkbookWithCustomZipEntrySource (POI API Documentation)</title>
+<link rel="stylesheet" type="text/css" href="../../../../../../stylesheet.css" title="Style">
+</head>
+<body>
+<script type="text/javascript"><!--
+    if (location.href.indexOf('is-external=true') == -1) {
+        parent.document.title="SXSSFWorkbookWithCustomZipEntrySource (POI API Documentation)";
+    }
+//-->
+</script>
+<noscript>
+<div>JavaScript is disabled on your browser.</div>
+</noscript>
+<!-- ========= START OF TOP NAVBAR ======= -->
+<div class="topNav"><a name="navbar_top">
+<!--   -->
+</a><a href="#skip-navbar_top" title="Skip navigation links"></a><a name="navbar_top_firstrow">
+<!--   -->
+</a>
+<ul class="navList" title="Navigation">
+<li><a href="../../../../../../overview-summary.html">Overview</a></li>
+<li><a href="package-summary.html">Package</a></li>
+<li class="navBarCell1Rev">Class</li>
+<li><a href="class-use/SXSSFWorkbookWithCustomZipEntrySource.html">Use</a></li>
+<li><a href="package-tree.html">Tree</a></li>
+<li><a href="../../../../../../deprecated-list.html">Deprecated</a></li>
+<li><a href="../../../../../../index-all.html">Index</a></li>
+<li><a href="../../../../../../help-doc.html">Help</a></li>
+</ul>
+</div>
+<div class="subNav">
+<ul class="navList">
+<li><a href="../../../../../../org/apache/poi/poifs/crypt/temp/SheetDataWriterWithDecorator.html" title="class in org.apache.poi.poifs.crypt.temp"><span class="strong">PREV CLASS</span></a></li>
+<li>NEXT CLASS</li>
+</ul>
+<ul class="navList">
+<li><a href="../../../../../../index.html?org/apache/poi/poifs/crypt/temp/SXSSFWorkbookWithCustomZipEntrySource.html" target="_top">FRAMES</a></li>
+<li><a href="SXSSFWorkbookWithCustomZipEntrySource.html" target="_top">NO FRAMES</a></li>
+</ul>
+<ul class="navList" id="allclasses_navbar_top">
+<li><a href="../../../../../../allclasses-noframe.html">All Classes</a></li>
+</ul>
+<div>
+<script type="text/javascript"><!--
+  allClassesLink = document.getElementById("allclasses_navbar_top");
+  if(window==top) {
+    allClassesLink.style.display = "block";
+  }
+  else {
+    allClassesLink.style.display = "none";
+  }
+  //-->
+</script>
+</div>
+<div>
+<ul class="subNavList">
+<li>SUMMARY:&nbsp;</li>
+<li>NESTED&nbsp;|&nbsp;</li>
+<li><a href="#fields_inherited_from_class_org.apache.poi.xssf.streaming.SXSSFWorkbook">FIELD</a>&nbsp;|&nbsp;</li>
+<li><a href="#constructor_summary">CONSTR</a>&nbsp;|&nbsp;</li>
+<li><a href="#method_summary">METHOD</a></li>
+</ul>
+<ul class="subNavList">
+<li>DETAIL:&nbsp;</li>
+<li>FIELD&nbsp;|&nbsp;</li>
+<li><a href="#constructor_detail">CONSTR</a>&nbsp;|&nbsp;</li>
+<li><a href="#method_detail">METHOD</a></li>
+</ul>
+</div>
+<a name="skip-navbar_top">
+<!--   -->
+</a></div>
+<!-- ========= END OF TOP NAVBAR ========= -->
+<!-- ======== START OF CLASS DATA ======== -->
+<div class="header">
+<p class="subTitle">org.apache.poi.poifs.crypt.temp</p>
+<h2 title="Class SXSSFWorkbookWithCustomZipEntrySource" class="title">Class SXSSFWorkbookWithCustomZipEntrySource</h2>
+</div>
+<div class="contentContainer">
+<ul class="inheritance">
+<li>java.lang.Object</li>
+<li>
+<ul class="inheritance">
+<li><a href="../../../../../../org/apache/poi/xssf/streaming/SXSSFWorkbook.html" title="class in org.apache.poi.xssf.streaming">org.apache.poi.xssf.streaming.SXSSFWorkbook</a></li>
+<li>
+<ul class="inheritance">
+<li>org.apache.poi.poifs.crypt.temp.SXSSFWorkbookWithCustomZipEntrySource</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<div class="description">
+<ul class="blockList">
+<li class="blockList">
+<dl>
+<dt>All Implemented Interfaces:</dt>
+<dd>java.io.Closeable, java.lang.Iterable&lt;<a href="../../../../../../org/apache/poi/ss/usermodel/Sheet.html" title="interface in org.apache.poi.ss.usermodel">Sheet</a>&gt;, <a href="../../../../../../org/apache/poi/ss/usermodel/Workbook.html" title="interface in org.apache.poi.ss.usermodel">Workbook</a></dd>
+</dl>
+<hr>
+<br>
+<pre><a href="../../../../../../org/apache/poi/util/Beta.html" title="annotation in org.apache.poi.util">@Beta</a>
+public class <strong>SXSSFWorkbookWithCustomZipEntrySource</strong>
+extends <a href="../../../../../../org/apache/poi/xssf/streaming/SXSSFWorkbook.html" title="class in org.apache.poi.xssf.streaming">SXSSFWorkbook</a></pre>
+</li>
+</ul>
+</div>
+<div class="summary">
+<ul class="blockList">
+<li class="blockList">
+<!-- =========== FIELD SUMMARY =========== -->
+<ul class="blockList">
+<li class="blockList"><a name="field_summary">
+<!--   -->
+</a>
+<h3>Field Summary</h3>
+<ul class="blockList">
+<li class="blockList"><a name="fields_inherited_from_class_org.apache.poi.xssf.streaming.SXSSFWorkbook">
+<!--   -->
+</a>
+<h3>Fields inherited from class&nbsp;org.apache.poi.xssf.streaming.<a href="../../../../../../org/apache/poi/xssf/streaming/SXSSFWorkbook.html" title="class in org.apache.poi.xssf.streaming">SXSSFWorkbook</a></h3>
+<code><a href="../../../../../../org/apache/poi/xssf/streaming/SXSSFWorkbook.html#DEFAULT_WINDOW_SIZE">DEFAULT_WINDOW_SIZE</a></code></li>
+</ul>
+<ul class="blockList">
+<li class="blockList"><a name="fields_inherited_from_class_org.apache.poi.ss.usermodel.Workbook">
+<!--   -->
+</a>
+<h3>Fields inherited from interface&nbsp;org.apache.poi.ss.usermodel.<a href="../../../../../../org/apache/poi/ss/usermodel/Workbook.html" title="interface in org.apache.poi.ss.usermodel">Workbook</a></h3>
+<code><a href="../../../../../../org/apache/poi/ss/usermodel/Workbook.html#PICTURE_TYPE_DIB">PICTURE_TYPE_DIB</a>, <a href="../../../../../../org/apache/poi/ss/usermodel/Workbook.html#PICTURE_TYPE_EMF">PICTURE_TYPE_EMF</a>, <a href="../../../../../../org/apache/poi/ss/usermodel/Workbook.html#PICTURE_TYPE_JPEG">PICTURE_TYPE_JPEG</a>, <a href="../../../../../../org/apache/poi/ss/usermodel/Workbook.html#PICTURE_TYPE_PICT">PICTURE_TYPE_PICT</a>, <a href="../../../../../../org/apache/poi/ss/usermodel/Workbook.html#PICTURE_TYPE_PNG">PICTURE_TYPE_PNG</a>, <a href="../../../../../../org/apache/poi/ss/usermodel/Workbook.html#PICTURE_TYPE_WMF">PICTURE_TYPE_WMF</a>, <a href="../../../../../../org/apache/poi/ss/usermodel/Workbook.html#SHEET_STATE_HIDDEN">SHEET_STATE_HIDDEN</a>, <a href="../../../../../../org/apache/poi/ss/usermodel/Workbook.html#SHEET_STATE_VERY_HIDDEN">SHEET_STATE_VERY_HIDDEN</a>, <a href="../../../../../../org/apache/poi/ss/usermodel/Workbook.html#SHEET_STATE_VISIBLE">SHEET_STATE_VISIBLE</a></code></li>
+</ul>
+</li>
+</ul>
+<!-- ======== CONSTRUCTOR SUMMARY ======== -->
+<ul class="blockList">
+<li class="blockList"><a name="constructor_summary">
+<!--   -->
+</a>
+<h3>Constructor Summary</h3>
+<table class="overviewSummary" border="0" cellpadding="3" cellspacing="0" summary="Constructor Summary table, listing constructors, and an explanation">
+<caption><span>Constructors</span><span class="tabEnd">&nbsp;</span></caption>
+<tr>
+<th class="colOne" scope="col">Constructor and Description</th>
+</tr>
+<tr class="altColor">
+<td class="colOne"><code><strong><a href="../../../../../../org/apache/poi/poifs/crypt/temp/SXSSFWorkbookWithCustomZipEntrySource.html#SXSSFWorkbookWithCustomZipEntrySource()">SXSSFWorkbookWithCustomZipEntrySource</a></strong>()</code>&nbsp;</td>
+</tr>
+</table>
+</li>
+</ul>
+<!-- ========== METHOD SUMMARY =========== -->
+<ul class="blockList">
+<li class="blockList"><a name="method_summary">
+<!--   -->
+</a>
+<h3>Method Summary</h3>
+<table class="overviewSummary" border="0" cellpadding="3" cellspacing="0" summary="Method Summary table, listing methods, and an explanation">
+<caption><span>Methods</span><span class="tabEnd">&nbsp;</span></caption>
+<tr>
+<th class="colFirst" scope="col">Modifier and Type</th>
+<th class="colLast" scope="col">Method and Description</th>
+</tr>
+<tr class="altColor">
+<td class="colFirst"><code>protected <a href="../../../../../../org/apache/poi/xssf/streaming/SheetDataWriter.html" title="class in org.apache.poi.xssf.streaming">SheetDataWriter</a></code></td>
+<td class="colLast"><code><strong><a href="../../../../../../org/apache/poi/poifs/crypt/temp/SXSSFWorkbookWithCustomZipEntrySource.html#createSheetDataWriter()">createSheetDataWriter</a></strong>()</code>&nbsp;</td>
+</tr>
+<tr class="rowColor">
+<td class="colFirst"><code>void</code></td>
+<td class="colLast"><code><strong><a href="../../../../../../org/apache/poi/poifs/crypt/temp/SXSSFWorkbookWithCustomZipEntrySource.html#write(java.io.OutputStream)">write</a></strong>(java.io.OutputStream&nbsp;stream)</code>
+<div class="block">Write out this workbook to an OutputStream.</div>
+</td>
+</tr>
+</table>
+<ul class="blockList">
+<li class="blockList"><a name="methods_inherited_from_class_org.apache.poi.xssf.streaming.SXSSFWorkbook">
+<!--   -->
+</a>
+<h3>Methods inherited from class&nbsp;org.apache.poi.xssf.streaming.<a href="../../../../../../org/apache/poi/xssf/streaming/SXSSFWorkbook.html" title="class in org.apache.poi.xssf.streaming">SXSSFWorkbook</a></h3>
+<code><a href="../../../../../../org/apache/poi/xssf/streaming/SXSSFWorkbook.html#addOlePackage(byte[], java.lang.String, java.lang.String, java.lang.String)">addOlePackage</a>, <a href="../../../../../../org/apache/poi/xssf/streaming/SXSSFWorkbook.html#addPicture(byte[], int)">addPicture</a>, <a href="../../../../../../org/apache/poi/xssf/streaming/SXSSFWorkbook.html#addToolPack(org.apache.poi.ss.formula.udf.UDFFinder)">addToolPack</a>, <a href="../../../../../../org/apache/poi/xssf/streaming/SXSSFWorkbook.html#cloneSheet(int)">cloneSheet</a>, <a href="../../../../../../org/apache/poi/xssf/streaming/SXSSFWorkbook.html#close()">close</a>, <a href="../../../../../../org/apache/poi/xssf/streaming/SXSSFWorkbook.html#createCellStyle()">createCellStyle</a>, <a href="../../../../../../org/apache/poi/xssf/streaming/SXSSFWorkbook.html#createDataFormat()">createDataFormat</a>, <a href="../../../../../../org/apache/poi/xssf/streaming/SXSSFWorkbook.html#createFont()">createFont</a>, <a href="../../../../../../org/apache/poi/xssf/streaming/SXSSFWorkbook.html#createName()">createName</a>, <a href="../../../../../../org/apache/poi/xssf/streaming/SXSSFWorkbook.html#createSheet()">createSheet</a>, <a href="../../../../../../org/apache/poi/xssf/streaming/SXSSFWorkbook.html#createSheet(java.lang.String)">createSheet</a>, <a href="../../../../../../org/apache/poi/xssf/streaming/SXSSFWorkbook.html#dispose()">dispose</a>, <a href="../../../../../../org/apache/poi/xssf/streaming/SXSSFWorkbook.html#findFont(boolean, short, short, java.lang.String, boolean, boolean, short, byte)">findFont</a>, <a href="../../../../../../org/apache/poi/xssf/streaming/SXSSFWorkbook.html#findFont(short, short, short, java.lang.String, boolean, boolean, short, byte)">findFont</a>, <a href="../../../../../../org/apache/poi/xssf/streaming/SXSSFWorkbook.html#flushSheets()">flushSheets</a>, <a href="../../../../../../org/apache/poi/xssf/streaming/SXSSFWorkbook.html#getActiveSheetIndex()">getActiveSheetIndex</a>, <a href="../../../../../../org/apache/poi/xssf/streaming/SXSSFWorkbook.html#getAllNames()">getAllNames</a>, <a href="../../../../../../org/apache/poi/xssf/streaming/SXSSFWorkbook.html#getAllPictures()">getAllPictures</a>, <a href="../../../../../../org/apache/poi/xssf/streaming/SXSSFWorkbook.html#getCellStyleAt(int)">getCellStyleAt</a>, <a href="../../../../../../org/apache/poi/xssf/streaming/SXSSFWorkbook.html#getCreationHelper()">getCreationHelper</a>, <a href="../../../../../../org/apache/poi/xssf/streaming/SXSSFWorkbook.html#getFirstVisibleTab()">getFirstVisibleTab</a>, <a href="../../../../../../org/apache/poi/xssf/streaming/SXSSFWorkbook.html#getFontAt(short)">getFontAt</a>, <a href="../../../../../../org/apache/poi/xssf/streaming/SXSSFWorkbook.html#getForceFormulaRecalculation()">getForceFormulaRecalculation</a>, <a href="../../../../../../org/apache/poi/xssf/streaming/SXSSFWorkbook.html#getMissingCellPolicy()">getMissingCellPolicy</a>, <a href="../../../../../../org/apache/poi/xssf/streaming/SXSSFWorkbook.html#getName(java.lang.String)">getName</a>, <a href="../../../../../../org/apache/poi/xssf/streaming/SXSSFWorkbook.html#getNameAt(int)">getNameAt</a>, <a href="../../../../../../org/apache/poi/xssf/streaming/SXSSFWorkbook.html#getNameIndex(java.lang.String)">getNameIndex</a>, <a href="../../../../../../org/apache/poi/xssf/streaming/SXSSFWorkbook.html#getNames(java.lang.String)">getNames</a>, <a href="../../../../../../org/apache/poi/xssf/streaming/SXSSFWorkbook.html#getNumberOfFonts()">getNumberOfFonts</a>, <a href="../../../../../../org/apache/poi/xssf/streaming/SXSSFWorkbook.html#getNumberOfNames()">getNumberOfNames</a>, <a href="../../../../../../org/apache/poi/xssf/streaming/SXSSFWorkbook.html#getNumberOfSheets()">getNumberOfSheets</a>, <a href="../../../../../../org/apache/poi/xssf/streaming/SXSSFWorkbook.html#getNumCellStyles()">getNumCellStyles</a>, <a href="../../../../../../org/apache/poi/xssf/streaming/SXSSFWorkbook.html#getPrintArea(int)">getPrintArea</a>, <a href="../../../../../../org/apache/poi/xssf/streaming/SXSSFWorkbook.html#getRandomAccessWindowSize()">getRandomAccessWindowSize</a>, <a href="../../../../../../org/apache/poi/xssf/streaming/SXSSFWorkbook.html#getSharedStringSource()">getSharedStringSource</a>, <a href="../../../../../../org/apache/poi/xssf/streaming/SXSSFWorkbook.html#getSheet(java.lang.String)">getSheet</a>, <a href="../../../../../../org/apache/poi/xssf/streaming/SXSSFWorkbook.html#getSheetAt(int)">getSheetAt</a>, <a href="../../../../../../org/apache/poi/xssf/streaming/SXSSFWorkbook.html#getSheetIndex(org.apache.poi.ss.usermodel.Sheet)">getSheetIndex</a>, <a href="../../../../../../org/apache/poi/xssf/streaming/SXSSFWorkbook.html#getSheetIndex(java.lang.String)">getSheetIndex</a>, <a href="../../../../../../org/apache/poi/xssf/streaming/SXSSFWorkbook.html#getSheetName(int)">getSheetName</a>, <a href="../../../../../../org/apache/poi/xssf/streaming/SXSSFWorkbook.html#getSheetVisibility(int)">getSheetVisibility</a>, <a href="../../../../../../org/apache/poi/xssf/streaming/SXSSFWorkbook.html#getSpreadsheetVersion()">getSpreadsheetVersion</a>, <a href="../../../../../../org/apache/poi/xssf/streaming/SXSSFWorkbook.html#getXSSFWorkbook()">getXSSFWorkbook</a>, <a href="../../../../../../org/apache/poi/xssf/streaming/SXSSFWorkbook.html#injectData(org.apache.poi.openxml4j.util.ZipEntrySource, java.io.OutputStream)">injectData</a>, <a href="../../../../../../org/apache/poi/xssf/streaming/SXSSFWorkbook.html#isCompressTempFiles()">isCompressTempFiles</a>, <a href="../../../../../../org/apache/poi/xssf/streaming/SXSSFWorkbook.html#isDate1904()">isDate1904</a>, <a href="../../../../../../org/apache/poi/xssf/streaming/SXSSFWorkbook.html#isHidden()">isHidden</a>, <a href="../../../../../../org/apache/poi/xssf/streaming/SXSSFWorkbook.html#isSheetHidden(int)">isSheetHidden</a>, <a href="../../../../../../org/apache/poi/xssf/streaming/SXSSFWorkbook.html#isSheetVeryHidden(int)">isSheetVeryHidden</a>, <a href="../../../../../../org/apache/poi/xssf/streaming/SXSSFWorkbook.html#iterator()">iterator</a>, <a href="../../../../../../org/apache/poi/xssf/streaming/SXSSFWorkbook.html#linkExternalWorkbook(java.lang.String, org.apache.poi.ss.usermodel.Workbook)">linkExternalWorkbook</a>, <a href="../../../../../../org/apache/poi/xssf/streaming/SXSSFWorkbook.html#removeName(int)">removeName</a>, <a href="../../../../../../org/apache/poi/xssf/streaming/SXSSFWorkbook.html#removeName(org.apache.poi.ss.usermodel.Name)">removeName</a>, <a href="../../../../../../org/apache/poi/xssf/streaming/SXSSFWorkbook.html#removeName(java.lang.String)">removeName</a>, <a href="../../../../../../org/apache/poi/xssf/streaming/SXSSFWorkbook.html#removePrintArea(int)">removePrintArea</a>, <a href="../../../../../../org/apache/poi/xssf/streaming/SXSSFWorkbook.html#removeSheetAt(int)">removeSheetAt</a>, <a href="../../../../../../org/apache/poi/xssf/streaming/SXSSFWorkbook.html#setActiveSheet(int)">setActiveSheet</a>, <a href="../../../../../../org/apache/poi/xssf/streaming/SXSSFWorkbook.html#setCompressTempFiles(boolean)">setCompressTempFiles</a>, <a href="../../../../../../org/apache/poi/xssf/streaming/SXSSFWorkbook.html#setFirstVisibleTab(int)">setFirstVisibleTab</a>, <a href="../../../../../../org/apache/poi/xssf/streaming/SXSSFWorkbook.html#setForceFormulaRecalculation(boolean)">setForceFormulaRecalculation</a>, <a href="../../../../../../org/apache/poi/xssf/streaming/SXSSFWorkbook.html#setHidden(boolean)">setHidden</a>, <a href="../../../../../../org/apache/poi/xssf/streaming/SXSSFWorkbook.html#setMissingCellPolicy(org.apache.poi.ss.usermodel.Row.MissingCellPolicy)">setMissingCellPolicy</a>, <a href="../../../../../../org/apache/poi/xssf/streaming/SXSSFWorkbook.html#setPrintArea(int, int, int, int, int)">setPrintArea</a>, <a href="../../../../../../org/apache/poi/xssf/streaming/SXSSFWorkbook.html#setPrintArea(int, java.lang.String)">setPrintArea</a>, <a href="../../../../../../org/apache/poi/xssf/streaming/SXSSFWorkbook.html#setSelectedTab(int)">setSelectedTab</a>, <a href="../../../../../../org/apache/poi/xssf/streaming/SXSSFWorkbook.html#setSheetHidden(int, boolean)">setSheetHidden</a>, <a href="../../../../../../org/apache/poi/xssf/streaming/SXSSFWorkbook.html#setSheetHidden(int, int)">setSheetHidden</a>, <a href="../../../../../../org/apache/poi/xssf/streaming/SXSSFWorkbook.html#setSheetName(int, java.lang.String)">setSheetName</a>, <a href="../../../../../../org/apache/poi/xssf/streaming/SXSSFWorkbook.html#setSheetOrder(java.lang.String, int)">setSheetOrder</a>, <a href="../../../../../../org/apache/poi/xssf/streaming/SXSSFWorkbook.html#setSheetVisibility(int, org.apache.poi.ss.usermodel.SheetVisibility)">setSheetVisibility</a>, <a href="../../../../../../org/apache/poi/xssf/streaming/SXSSFWorkbook.html#sheetIterator()">sheetIterator</a></code></li>
+</ul>
+<ul class="blockList">
+<li class="blockList"><a name="methods_inherited_from_class_java.lang.Object">
+<!--   -->
+</a>
+<h3>Methods inherited from class&nbsp;java.lang.Object</h3>
+<code>clone, equals, finalize, getClass, hashCode, notify, notifyAll, toString, wait, wait, wait</code></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</div>
+<div class="details">
+<ul class="blockList">
+<li class="blockList">
+<!-- ========= CONSTRUCTOR DETAIL ======== -->
+<ul class="blockList">
+<li class="blockList"><a name="constructor_detail">
+<!--   -->
+</a>
+<h3>Constructor Detail</h3>
+<a name="SXSSFWorkbookWithCustomZipEntrySource()">
+<!--   -->
+</a>
+<ul class="blockListLast">
+<li class="blockList">
+<h4>SXSSFWorkbookWithCustomZipEntrySource</h4>
+<pre>public&nbsp;SXSSFWorkbookWithCustomZipEntrySource()</pre>
+</li>
+</ul>
+</li>
+</ul>
+<!-- ============ METHOD DETAIL ========== -->
+<ul class="blockList">
+<li class="blockList"><a name="method_detail">
+<!--   -->
+</a>
+<h3>Method Detail</h3>
+<a name="write(java.io.OutputStream)">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>write</h4>
+<pre>public&nbsp;void&nbsp;write(java.io.OutputStream&nbsp;stream)
+           throws java.io.IOException</pre>
+<div class="block"><strong>Description copied from class:&nbsp;<code><a href="../../../../../../org/apache/poi/xssf/streaming/SXSSFWorkbook.html#write(java.io.OutputStream)">SXSSFWorkbook</a></code></strong></div>
+<div class="block">Write out this workbook to an OutputStream.</div>
+<dl>
+<dt><strong>Specified by:</strong></dt>
+<dd><code><a href="../../../../../../org/apache/poi/ss/usermodel/Workbook.html#write(java.io.OutputStream)">write</a></code>&nbsp;in interface&nbsp;<code><a href="../../../../../../org/apache/poi/ss/usermodel/Workbook.html" title="interface in org.apache.poi.ss.usermodel">Workbook</a></code></dd>
+<dt><strong>Overrides:</strong></dt>
+<dd><code><a href="../../../../../../org/apache/poi/xssf/streaming/SXSSFWorkbook.html#write(java.io.OutputStream)">write</a></code>&nbsp;in class&nbsp;<code><a href="../../../../../../org/apache/poi/xssf/streaming/SXSSFWorkbook.html" title="class in org.apache.poi.xssf.streaming">SXSSFWorkbook</a></code></dd>
+<dt><span class="strong">Parameters:</span></dt><dd><code>stream</code> - - the java OutputStream you wish to write to</dd>
+<dt><span class="strong">Throws:</span></dt>
+<dd><code>java.io.IOException</code> - if anything can't be written.</dd></dl>
+</li>
+</ul>
+<a name="createSheetDataWriter()">
+<!--   -->
+</a>
+<ul class="blockListLast">
+<li class="blockList">
+<h4>createSheetDataWriter</h4>
+<pre>protected&nbsp;<a href="../../../../../../org/apache/poi/xssf/streaming/SheetDataWriter.html" title="class in org.apache.poi.xssf.streaming">SheetDataWriter</a>&nbsp;createSheetDataWriter()
+                                         throws java.io.IOException</pre>
+<dl>
+<dt><strong>Overrides:</strong></dt>
+<dd><code><a href="../../../../../../org/apache/poi/xssf/streaming/SXSSFWorkbook.html#createSheetDataWriter()">createSheetDataWriter</a></code>&nbsp;in class&nbsp;<code><a href="../../../../../../org/apache/poi/xssf/streaming/SXSSFWorkbook.html" title="class in org.apache.poi.xssf.streaming">SXSSFWorkbook</a></code></dd>
+<dt><span class="strong">Throws:</span></dt>
+<dd><code>java.io.IOException</code></dd></dl>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</div>
+</div>
+<!-- ========= END OF CLASS DATA ========= -->
+<!-- ======= START OF BOTTOM NAVBAR ====== -->
+<div class="bottomNav"><a name="navbar_bottom">
+<!--   -->
+</a><a href="#skip-navbar_bottom" title="Skip navigation links"></a><a name="navbar_bottom_firstrow">
+<!--   -->
+</a>
+<ul class="navList" title="Navigation">
+<li><a href="../../../../../../overview-summary.html">Overview</a></li>
+<li><a href="package-summary.html">Package</a></li>
+<li class="navBarCell1Rev">Class</li>
+<li><a href="class-use/SXSSFWorkbookWithCustomZipEntrySource.html">Use</a></li>
+<li><a href="package-tree.html">Tree</a></li>
+<li><a href="../../../../../../deprecated-list.html">Deprecated</a></li>
+<li><a href="../../../../../../index-all.html">Index</a></li>
+<li><a href="../../../../../../help-doc.html">Help</a></li>
+</ul>
+</div>
+<div class="subNav">
+<ul class="navList">
+<li><a href="../../../../../../org/apache/poi/poifs/crypt/temp/SheetDataWriterWithDecorator.html" title="class in org.apache.poi.poifs.crypt.temp"><span class="strong">PREV CLASS</span></a></li>
+<li>NEXT CLASS</li>
+</ul>
+<ul class="navList">
+<li><a href="../../../../../../index.html?org/apache/poi/poifs/crypt/temp/SXSSFWorkbookWithCustomZipEntrySource.html" target="_top">FRAMES</a></li>
+<li><a href="SXSSFWorkbookWithCustomZipEntrySource.html" target="_top">NO FRAMES</a></li>
+</ul>
+<ul class="navList" id="allclasses_navbar_bottom">
+<li><a href="../../../../../../allclasses-noframe.html">All Classes</a></li>
+</ul>
+<div>
+<script type="text/javascript"><!--
+  allClassesLink = document.getElementById("allclasses_navbar_bottom");
+  if(window==top) {
+    allClassesLink.style.display = "block";
+  }
+  else {
+    allClassesLink.style.display = "none";
+  }
+  //-->
+</script>
+</div>
+<div>
+<ul class="subNavList">
+<li>SUMMARY:&nbsp;</li>
+<li>NESTED&nbsp;|&nbsp;</li>
+<li><a href="#fields_inherited_from_class_org.apache.poi.xssf.streaming.SXSSFWorkbook">FIELD</a>&nbsp;|&nbsp;</li>
+<li><a href="#constructor_summary">CONSTR</a>&nbsp;|&nbsp;</li>
+<li><a href="#method_summary">METHOD</a></li>
+</ul>
+<ul class="subNavList">
+<li>DETAIL:&nbsp;</li>
+<li>FIELD&nbsp;|&nbsp;</li>
+<li><a href="#constructor_detail">CONSTR</a>&nbsp;|&nbsp;</li>
+<li><a href="#method_detail">METHOD</a></li>
+</ul>
+</div>
+<a name="skip-navbar_bottom">
+<!--   -->
+</a></div>
+<!-- ======== END OF BOTTOM NAVBAR ======= -->
+<p class="legalCopy"><small>
+                <i>Copyright 2017 The Apache Software Foundation or
+        its licensors, as applicable.</i>
+            </small></p>
+</body>
+</html>

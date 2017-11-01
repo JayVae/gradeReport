@@ -1,0 +1,20 @@
+<component name="libraryTable">
+  <library name="commons-codec-1.10">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/src/lib/poi-3.16-beta2/lib/commons-codec-1.10.jar!/" />
+      <root url="jar://$PROJECT_DIR$/src/lib/poi-3.16-beta2/lib/commons-collections4-4.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/src/lib/poi-3.16-beta2/lib/commons-logging-1.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/src/lib/poi-3.16-beta2/lib/junit-4.12.jar!/" />
+      <root url="jar://$PROJECT_DIR$/src/lib/poi-3.16-beta2/lib/log4j-1.2.17.jar!/" />
+      <root url="jar://$PROJECT_DIR$/src/lib/poi-3.16-beta2/poi-3.16-beta2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/src/lib/poi-3.16-beta2/poi-examples-3.16-beta2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/src/lib/poi-3.16-beta2/poi-excelant-3.16-beta2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/src/lib/poi-3.16-beta2/poi-ooxml-3.16-beta2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/src/lib/poi-3.16-beta2/poi-ooxml-schemas-3.16-beta2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/src/lib/poi-3.16-beta2/poi-scratchpad-3.16-beta2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/src/lib/postgresql-9.3-1102-jdbc41.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

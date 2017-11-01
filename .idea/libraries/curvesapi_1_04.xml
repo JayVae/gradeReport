@@ -1,0 +1,22 @@
+<component name="libraryTable">
+  <library name="curvesapi-1.04">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/src/lib/poi-3.16-beta2/ooxml-lib/curvesapi-1.04.jar!/" />
+      <root url="jar://$PROJECT_DIR$/src/lib/poi-3.16-beta2/ooxml-lib/xmlbeans-2.6.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/src/lib/poi-3.16-beta2/poi-3.16-beta2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/src/lib/poi-3.16-beta2/poi-examples-3.16-beta2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/src/lib/poi-3.16-beta2/poi-excelant-3.16-beta2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/src/lib/poi-3.16-beta2/poi-ooxml-3.16-beta2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/src/lib/poi-3.16-beta2/poi-ooxml-schemas-3.16-beta2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/src/lib/poi-3.16-beta2/poi-scratchpad-3.16-beta2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/src/lib/postgresql-9.3-1102-jdbc41.jar!/" />
+      <root url="jar://$PROJECT_DIR$/src/lib/poi-3.16-beta2/lib/commons-codec-1.10.jar!/" />
+      <root url="jar://$PROJECT_DIR$/src/lib/poi-3.16-beta2/lib/commons-collections4-4.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/src/lib/poi-3.16-beta2/lib/commons-logging-1.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/src/lib/poi-3.16-beta2/lib/junit-4.12.jar!/" />
+      <root url="jar://$PROJECT_DIR$/src/lib/poi-3.16-beta2/lib/log4j-1.2.17.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

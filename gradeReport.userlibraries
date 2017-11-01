@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<eclipse-userlibraries>
+  <library name="Maven: bouncycastle:bcmail-jdk14:138">
+    <archive path="C:/Users/dell/.m2/repository/bouncycastle/bcmail-jdk14/138/bcmail-jdk14-138.jar" />
+  </library>
+  <library name="Maven: bouncycastle:bcprov-jdk14:138">
+    <archive path="C:/Users/dell/.m2/repository/bouncycastle/bcprov-jdk14/138/bcprov-jdk14-138.jar" />
+  </library>
+  <library name="Maven: com.lowagie:itext:2.1.5">
+    <archive path="C:/Users/dell/.m2/repository/com/lowagie/itext/2.1.5/itext-2.1.5.jar" />
+  </library>
+  <library name="Maven: commons-codec:commons-codec:1.5">
+    <archive path="C:/Users/dell/.m2/repository/commons-codec/commons-codec/1.5/commons-codec-1.5.jar" />
+    <archive path="C:/Users/dell/.m2/repository/postgresql/postgresql/postgresql-9.3-1102-jdbc41.jar" />
+  </library>
+  <library name="Maven: dom4j:dom4j:1.6.1">
+    <archive path="C:/Users/dell/.m2/repository/dom4j/dom4j/1.6.1/dom4j-1.6.1.jar" />
+  </library>
+  <library name="Maven: junit:junit:4.4">
+    <archive path="C:/Users/dell/.m2/repository/junit/junit/4.4/junit-4.4.jar" />
+  </library>
+  <library name="Maven: org.apache.poi:poi:3.9">
+    <archive path="C:/Users/dell/.m2/repository/org/apache/poi/poi/3.9/poi-3.9.jar" />
+  </library>
+  <library name="Maven: org.apache.poi:poi-ooxml:3.9">
+    <archive path="C:/Users/dell/.m2/repository/org/apache/poi/poi-ooxml/3.9/poi-ooxml-3.9.jar" />
+  </library>
+  <library name="Maven: org.apache.poi:poi-ooxml-schemas:3.9">
+    <archive path="C:/Users/dell/.m2/repository/org/apache/poi/poi-ooxml-schemas/3.9/poi-ooxml-schemas-3.9.jar" />
+  </library>
+  <library name="Maven: org.apache.poi:poi-scratchpad:3.16-beta1">
+    <archive path="C:/Users/dell/.m2/repository/org/apache/poi/poi-scratchpad/3.16-beta1/poi-scratchpad-3.16-beta1.jar" />
+  </library>
+  <library name="Maven: org.apache.xmlbeans:xmlbeans:2.3.0">
+    <archive path="C:/Users/dell/.m2/repository/org/apache/xmlbeans/xmlbeans/2.3.0/xmlbeans-2.3.0.jar" />
+  </library>
+  <library name="Maven: org.freemarker:freemarker:2.3.24-incubating">
+    <archive path="C:/Users/dell/.m2/repository/org/freemarker/freemarker/2.3.24-incubating/freemarker-2.3.24-incubating.jar" />
+  </library>
+  <library name="Maven: org.jfree:jcommon:1.0.17">
+    <archive path="C:/Users/dell/.m2/repository/org/jfree/jcommon/1.0.17/jcommon-1.0.17.jar" />
+  </library>
+  <library name="Maven: org.jfree:jfreechart:1.0.14">
+    <archive path="C:/Users/dell/.m2/repository/org/jfree/jfreechart/1.0.14/jfreechart-1.0.14.jar" />
+  </library>
+  <library name="Maven: stax:stax-api:1.0.1">
+    <archive path="C:/Users/dell/.m2/repository/stax/stax-api/1.0.1/stax-api-1.0.1.jar" />
+  </library>
+  <library name="Maven: xml-apis:xml-apis:1.3.04">
+    <archive path="C:/Users/dell/.m2/repository/xml-apis/xml-apis/1.3.04/xml-apis-1.3.04.jar" />
+  </library>
+</eclipse-userlibraries>
+
