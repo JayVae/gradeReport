@@ -1,7 +1,5 @@
 # gradeReport
-自动化成绩报告生成系统；
-作者是王婷和陈瑾瑾；
-拿过来学习一下；
+自动化成绩报告生成系统；通过学生成绩，给出学生对应的成绩报告分析。
 
 其中的数据源data文件夹下的all.xlsx,correctAns.xlsx,gradeAttr2.xlsx。
 all.xlsx是所有学生的学号，姓名以及各个题目的答案；
